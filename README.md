@@ -5,14 +5,6 @@ The tool is written in Python and requires Python 2.7 or Python 3.3+ but no addi
 
 For further information, see the [project Home Page](http://medialab.di.unipi.it/wiki/Wikipedia_Extractor) or the [Wiki](https://github.com/attardi/wikiextractor/wiki).
 
-# Wikipedia Cirrus Extractor
-
-`cirrus-extractor.py` is a version of the script that performs extraction from a Wikipedia Cirrus dump.
-Cirrus dumps contain text with already expanded templates.
-
-Cirrus dumps are available at:
-[cirrussearch](http://dumps.wikimedia.org/other/cirrussearch/).
-
 # Details
 
 WikiExtractor performs template expansion by preprocessing the whole dump and extracting template definitions.
@@ -117,4 +109,10 @@ assuming template definitions have not changed.
 Option --no-templates significantly speeds up the extractor, avoiding the cost
 of expanding [MediaWiki templates](https://www.mediawiki.org/wiki/Help:Templates).
 
-For further information, visit [the documentation](http://attardi.github.io/wikiextractor).
+For further information, visit [the documentation](http://attardi.github.io/wikiextractor).  
+
+# installation and usage of opencc on windows
+
+please refer to <http://blog.csdn.net/helihongzhizhuo/article/details/47251935> for installation  
+
+refer to <https://pypi.python.org/pypi/opencc-python/0.1> for opencc usage
