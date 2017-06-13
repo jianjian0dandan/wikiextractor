@@ -88,3 +88,6 @@ ENV/
 
 output/*
 zhwiki-latest-pages-articles.xml.bz2
+tmpchttext
+tmpchstext
+zhwiki.json
