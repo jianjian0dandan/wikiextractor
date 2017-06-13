@@ -21,6 +21,7 @@ if __name__ == '__main__':
     tempname = "tmpchttext"
     tempoutputname = "tmpchstext"
     fw = open(tempname, "w")
+    fwtitle = open(tempname + "_title", "w")
     splitstr = "===================================================="
     item_list = []
     for fname in fnames:
@@ -61,12 +62,18 @@ if __name__ == '__main__':
     for idx, item in enumerate(item_list):
         if idx > 0:
             fw.write(splitstr)
+            fwtitle.write(splitstr)
         fw.write("%s" % item["text"].encode("utf-8"))
+        fwtitle.write("%s" % item["title"].encode("utf-8"))
         del item["text"]
+        del item["title"]
     fw.close()
+    fwtitle.close()
 
     print "start convert..."
     cmd = "opencc-1.0.1-win64\opencc.exe -i %s -o %s -c opencc-1.0.1-win64\\t2s.json" % (tempname, tempoutputname)
+    os.popen(cmd)
+    cmd = "opencc-1.0.1-win64\opencc.exe -i %s -o %s -c opencc-1.0.1-win64\\t2s.json" % (tempname + "_title", tempoutputname + "_title")
     os.popen(cmd)
     print "end convert..."
 
@@ -74,12 +81,18 @@ if __name__ == '__main__':
     with open(tempoutputname) as f:
         data = f.read()
         texts_list = data.split(splitstr)
+    title_list = []
+    with open(tempoutputname + "_title") as f:
+        data = f.read()
+        title_list = data.split(splitstr)    
     print "end split..."
-    print len(item_list), len(texts_list)
+    print len(item_list), len(texts_list), len(title_list)
     
     for idx, text in enumerate(texts_list):
         item = item_list[idx]
+        title = title_list[idx]
         item["text"] = text.decode("utf-8")
+        item["title"] = title.decode("utf-8")
         fwt.write("%s\n" % json.dumps(item))
 
     fwt.close()
