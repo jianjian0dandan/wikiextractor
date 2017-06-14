@@ -115,4 +115,10 @@ For further information, visit [the documentation](http://attardi.github.io/wiki
 
 please refer to <http://blog.csdn.net/helihongzhizhuo/article/details/47251935> for installation  
 
-refer to <https://pypi.python.org/pypi/opencc-python/0.1> for opencc usage
+refer to <https://pypi.python.org/pypi/opencc-python/0.1> for opencc usage  
+
+# installation and usage of pyltp  
+
+refer to <https://github.com/HIT-SCIR/ltp/blob/master/doc/install.rst> for installation  
+
+refer to <http://pyltp.readthedocs.io/zh_CN/latest/> for usage
