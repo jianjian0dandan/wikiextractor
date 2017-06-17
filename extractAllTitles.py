@@ -10,6 +10,7 @@ from recognize_with_jieba import extract_nt, is_nt
 
 
 if __name__ == '__main__':
+    """
     input_file = "zhwiki-latest-pages-articles.xml.bz2"
 
     fw = open("citiao_nt_zhwiki.txt", "w")
@@ -26,7 +27,39 @@ if __name__ == '__main__':
                 fwdict.write("%s %s %s\n" % (title.encode("utf-8"), 3, "nt"))
                 fw.write("%s\t%s\t%s\t%s\n" % (id, revid, title.encode("utf-8"), ns))
             else:
-            	print title, ifadd
-            	fw.write("%s\t%s\t%s\t%s\n" % (id, revid, title.encode("utf-8"), ns))
+                print title, ifadd
+                fw.write("%s\t%s\t%s\t%s\n" % (id, revid, title.encode("utf-8"), ns))
     fw.close()
     fwdict.close()
+    """
+
+    self_dict = set()
+    with open("self_dict.txt") as f:
+        for line in f:
+            self_dict.add(line.strip().split(" ")[0])
+
+    f = open("self_dict_update.txt")
+    for line in f:
+        if "template" in line or "Template:" in line or "Category:" in line or "Wikipedia:" in line:
+            continue
+
+        self_dict.add(line.strip().split(" ")[0])
+    f.close()
+
+    fw = open("self_dict.txt", "w")
+    for d in self_dict:
+        if ":" in d:
+            print d
+        else:
+            fw.write("%s %s %s\n" % (d, "3", "nt"))
+    fw.close()
+
+    fw = open("citiao_nt_zhwiki_final.txt", "w")
+    with open("citiao_nt_zhwiki.txt") as f:
+        for line in f:
+            data = line.strip().split("\t")
+            if ":" in data[2]:
+                print data[2]
+            else:
+                fw.write(line)
+    fw.close()
