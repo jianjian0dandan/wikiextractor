@@ -8,26 +8,42 @@ from collections import Counter
 
 jieba.load_userdict("self_dict.txt")
 
-def extract_nt(text):
+ins_pos_set = set(["nt"])
+per_pos_set = set(["nr", "nr1", "nr2", "nrj", "nrf"])
+loc_pos_set = set(["ns", "nsf"])
+
+def extract_ne(text):
     """抽取text中的机构实体
+       text: utf-8 编码
     """
-    nts = []
+    nts = [] # institutions
+    nps = [] # persons
+    nls = [] # locations
     words = pseg.cut(text)
     for w in words:
         flag = w.flag
         word = w.word
-        if flag == "nt":
+        if flag in ins_pos_set:
             nts.append(word)
+        elif flag in per_pos_set:
+            nps.append(word)
+        elif flag in loc_pos_set:
+            nls.append(word)
 
     ct = Counter(nts)
-    results = ct.most_common()
+    results1 = ct.most_common()
+    ct = Counter(nps)
+    results2 = ct.most_common()
+    ct = Counter(nls)
+    results3 = ct.most_common()
 
-    return [r[0] for r in results]
+    return {"ins": [r[0] for r in results1], "per": [r[0] for r in results2], \
+            "loc": [r[0] for r in results3]}
 
 
 def is_nt(title):
     """判断词条名称是否是机构实体，title是词条名称, 返回(是否为机构实体，是否需要将词条作为机构实体加入自定义字典)
-       title: utf-8
+       title: utf-8 编码
     """
     words = pseg.cut(title)
     containnt = False

@@ -11,7 +11,7 @@ with open("ins_titles_zhwiki.txt") as f:
     for line in f:
         ins_title = line.strip()
         result = is_nt(ins_title)
-        if result[1]:
+        if result[1] or (not result[0] and not result[1]):
             add_ins_titles.add(ins_title)
 
 with open("self_dict.txt") as f:
