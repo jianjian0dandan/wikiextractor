@@ -40,6 +40,7 @@ def _calculate_languages_ratios(text):
 
     # Compute per language included in nltk number of unique stopwords appearing in analyzed text
     for language in stopwords.fileids():
+        print language
         stopwords_set = set(stopwords.words(language))
         words_set = set(words)
         common_elements = words_set.intersection(stopwords_set)
@@ -94,3 +95,7 @@ if __name__=='__main__':
     language = detect_language(text)
 
     print language
+
+    with open("./20170612data/zh/wiki/8191.txt") as f:
+        text = f.read()
+        print detect_language(text.decode("utf-8"))
