@@ -5,7 +5,9 @@ The tool is written in Python and requires Python 2.7 or Python 3.3+ but no addi
 
 For further information, see the [project Home Page](http://medialab.di.unipi.it/wiki/Wikipedia_Extractor) or the [Wiki](https://github.com/attardi/wikiextractor/wiki).  
 
-100 best github relation extraction <http://meta-guide.com/software-meta-guide/100-best-github-relation-extraction>
+100 best github relation extraction <http://meta-guide.com/software-meta-guide/100-best-github-relation-extraction>  
+
+<https://github.com/mit-nlp/MITIE>
 
 # Details
 
