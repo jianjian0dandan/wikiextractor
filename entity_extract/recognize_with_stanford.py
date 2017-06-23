@@ -1,34 +1,36 @@
 # coding=utf-8 
 
+''' 
+    安装nltk :
+    $ pip install nltk`
+    添加环境变量:
+    $ export CLASSPATH=".../stanford-ner.jar:$CLASSPATH"
+'''
+
 from nltk.tag import StanfordNERTagger
 from collections import Counter
 
-
-English_entities = ['PERSON', 'LOCATION', 'ORGANIZATION']
-
+st = StanfordNERTagger('english.all.3class.distsim.crf.ser.gz')
 
 def extract_entities_English(text):
 
-	st = StanfordNERTagger('english.all.3class.distsim.crf.ser.gz')
-	r = st.tag(text.split()) 
-	per = [(w[0], w[1]) for w in r if w[1] == 'PERSON']
-	loc = [(w[0], w[1]) for w in r if w[1] == 'LOCATION']
-	org = [(w[0], w[1]) for w in r if w[1] == 'ORGANIZATION']
-	per_conter = Counter(per)
-	loc_conter = Counter(loc)
-	org_conter = Counter(org)
+    r = st.tag(text.split()) 
+    per = [(w[0], w[1]) for w in r if w[1] == 'PERSON']
+    loc = [(w[0], w[1]) for w in r if w[1] == 'LOCATION']
+    org = [(w[0], w[1]) for w in r if w[1] == 'ORGANIZATION']
+    per_conter = Counter(per)
+    loc_conter = Counter(loc)
+    org_conter = Counter(org)
 
-	per = sorted(per_conter.iteritems(), key=lambda d:d[1], reverse = True)
-	loc = sorted(loc_conter.iteritems(), key=lambda d:d[1], reverse = True)
-	org = sorted(org_conter.iteritems(), key=lambda d:d[1], reverse = True)
-	entities = {
-	    'per': [e[0][0] for e in per],
-	    'loc': [e[0][0] for e in loc],
-	    'ins': [e[0][0] for e in org]
-	}
-	return entities
-
-
+    per = sorted(per_conter.iteritems(), key=lambda d:d[1], reverse = True)
+    loc = sorted(loc_conter.iteritems(), key=lambda d:d[1], reverse = True)
+    org = sorted(org_conter.iteritems(), key=lambda d:d[1], reverse = True)
+    entities = {
+        'per': [e[0][0] for e in per],
+        'loc': [e[0][0] for e in loc],
+        'ins': [e[0][0] for e in org]
+    }
+    return entities
 
 if __name__ == '__main__':
 
