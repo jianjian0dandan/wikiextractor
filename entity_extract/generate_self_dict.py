@@ -4,6 +4,10 @@ import jieba
 import jieba.posseg as pseg
 from recognize_with_jieba import is_nt
 
+import sys 
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
 jieba.load_userdict("self_dict.txt")
 
 add_ins_titles = set()
