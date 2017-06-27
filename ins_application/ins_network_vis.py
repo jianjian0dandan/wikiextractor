@@ -41,6 +41,8 @@ def is_nt(text):
             if text[-length:] in ins_posfix and u":" not in text:
                 isins = True
                 break
+        return isins
+
     isins = check(text)
     
     if not isins:
@@ -106,14 +108,19 @@ def dict2graph(targetins_list, insdict, hops=1):
             raise ImportError("This example needs Graphviz and either "
                               "PyGraphviz or PyDotPlus")
 
-    plt.figure(1, figsize=(8, 8))
-    # layout graphs with positions using graphviz neato, twopi, fdp
-    pos = graphviz_layout(local_G, prog="twopi")
+    plt.figure(1, figsize=(18, 9))
+    draw_graphviz = True
+    try:
+        # layout graphs with positions using graphviz neato, twopi, fdp
+        pos = graphviz_layout(local_G, prog="twopi")
+    except:
+        draw_graphviz = False
     # color nodes the same in each connected subgraph
     C = nx.connected_component_subgraphs(local_G)
     for g in C:
         c = [random.random()] * nx.number_of_nodes(g) # random color...
-        nx.draw(g,
+        if draw_graphviz:
+            nx.draw(g,
              pos,
              node_size=40,
              node_color=c,
@@ -121,6 +128,13 @@ def dict2graph(targetins_list, insdict, hops=1):
              vmax=1.0,
              with_labels=True
              )
+        else:
+            nx.draw(g,
+                node_size=40,
+                node_color=c,
+                vmin=0.0,
+                vmax=1.0,
+                with_labels=True)
     plt.savefig("demo.png", dpi=75)
     plt.show()
 
@@ -136,19 +150,16 @@ if __name__ == '__main__':
             ins2ins_dict[ins] = []
         else:
             _ins = line.strip().split("：")[0].replace("*", "").strip().split("（")[0].decode("utf-8")
-            #ins2ins_dict[ins].append(_ins)
+            """
             if len(_ins) < 30 and is_nt_v2(_ins.encode("utf-8")):
                 ins2ins_dict[ins].append(_ins)
             """
             if is_nt(_ins):
                 ins2ins_dict[ins].append(_ins)
-            """
             
             
     f.close()
 
-    #ins_list = [u"中华人民共和国国家发展和改革委员会", u"国家发改委"] # 
-    #total_hops = 2
-    ins_list = [u"中华人民共和国国家发展和改革委员会", u"伊斯兰国"] # 
+    ins_list = [u"中华人民共和国国家发展和改革委员会", u"国家发改委"] # 
     total_hops = 2
     dict2graph(ins_list, ins2ins_dict, hops=total_hops)
