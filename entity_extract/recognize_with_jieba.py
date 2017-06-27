@@ -38,6 +38,7 @@ def extract_ne(text):
     for sent in text.split("。"):
         words = pseg.cut(sent)
         sent = get_zh_word(sent.decode("utf-8").replace("\n", ""))
+        print len(sent)
         for w in words:
             flag = w.flag
             word = w.word.strip()
@@ -89,15 +90,17 @@ def is_nt(title):
 
 
 if __name__ == '__main__':
-    with open("./20170612data/zh/wiki/8191.txt") as f:
+    #with open("./20170612data/zh/wiki/8191.txt") as f:
+    with open("./21257.zh.txt") as f:
         result = extract_ne(f.read())
         print "-----------wiki zh\n"
         print "ins:"
         for w in result["ins"]:
-            print "实体名称: ", w[0].encode("utf-8")
-            print "下面是实体出现的句子: "
+            #print "实体名称: ", w[0].encode("utf-8")
+            #print "下面是实体出现的句子: "
             for idx, sent in enumerate(w[1]):
-                print "句子%s: " % idx, sent.encode("utf-8")
+                #print "句子%s: " % idx, sent.encode("utf-8")
+                pass
 
     """
     print "\n"
