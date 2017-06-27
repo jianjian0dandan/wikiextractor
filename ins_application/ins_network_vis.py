@@ -98,7 +98,7 @@ def dict2graph(targetins_list, insdict):
              vmax=1.0,
              with_labels=True
              )
-    plt.savefig("atlas.png", dpi=75)
+    plt.savefig("demo.png", dpi=75)
     plt.show()
 
 if __name__ == '__main__':
