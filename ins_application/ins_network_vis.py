@@ -21,6 +21,7 @@ import networkx as nx
 from networkx.generators.atlas import *
 import matplotlib.pyplot as plt
 import random
+from recognize_with_jieba import is_nt as is_nt_v2
 
 mpl.rcParams[u'font.sans-serif'] = ['YouYuan'] # Microsoft YaHei,FangSong,YouYuan,SimHei,STKaiti,STSong,SimSun-ExtB,Webdings 
 
@@ -33,12 +34,17 @@ with open("ins_dict.txt") as f:
 def is_nt(text):
     """text: unicode
     """
-    isins = False
-    for i in range(0, 4):
-        length = 4 - i
-        if text[-length:] in ins_posfix and u":" not in text:
-            isins = True
-            break
+    def check(text):
+        isins = False
+        for i in range(0, 4):
+            length = 4 - i
+            if text[-length:] in ins_posfix and u":" not in text:
+                isins = True
+                break
+    isins = check(text)
+    
+    if not isins:
+        isins = check(text.split(u"（")[0])
 
     return isins
 
@@ -50,16 +56,33 @@ def add_local_neighbor(center, lis, G):
 
     return G
 
+def find_friends(nodes, G):
+    result = set()
+    for node in nodes:
+        result.add(node)
+        if node in G:
+            for nd in G[node]:
+                result.add(nd)
 
-def dict2graph(targetins_list, insdict):
+    return result
+
+def dict2graph(targetins_list, insdict, hops=1):
     G=nx.Graph()
 
     for ins, rs in insdict.iteritems():
-        if ins in targetins_list:
-            G = add_local_neighbor(ins, rs, G)
-
+        # if ins in targetins_list:
+        G = add_local_neighbor(ins, rs, G)
+        
+        """
         if len(list(set(rs) & set(targetins_list))) > 0:
             G = add_local_neighbor(ins, rs, G)
+        """
+
+    local_nodes = set(targetins_list)
+    for hop in range(0, hops):
+        local_nodes = local_nodes | find_friends(local_nodes, G)
+
+    local_G = G.subgraph(list(local_nodes))
 
 
     # cities = {0:"Toronto",1:"London",2:"Berlin",3:"New York"}
@@ -70,7 +93,7 @@ def dict2graph(targetins_list, insdict):
     #plt.show() # display
 
     print("graph has %d nodes with %d edges"\
-          %(nx.number_of_nodes(G), nx.number_of_edges(G)))
+          %(nx.number_of_nodes(local_G), nx.number_of_edges(local_G)))
 
     try:
         import pygraphviz
@@ -85,9 +108,9 @@ def dict2graph(targetins_list, insdict):
 
     plt.figure(1, figsize=(8, 8))
     # layout graphs with positions using graphviz neato, twopi, fdp
-    pos = graphviz_layout(G, prog="twopi")
+    pos = graphviz_layout(local_G, prog="twopi")
     # color nodes the same in each connected subgraph
-    C = nx.connected_component_subgraphs(G)
+    C = nx.connected_component_subgraphs(local_G)
     for g in C:
         c = [random.random()] * nx.number_of_nodes(g) # random color...
         nx.draw(g,
@@ -112,16 +135,20 @@ if __name__ == '__main__':
             ins = inss[0].decode("utf-8")
             ins2ins_dict[ins] = []
         else:
-            _ins = line.strip().split("：")[0].replace("*", "").strip().decode("utf-8")
+            _ins = line.strip().split("：")[0].replace("*", "").strip().split("（")[0].decode("utf-8")
             #ins2ins_dict[ins].append(_ins)
+            if len(_ins) < 30 and is_nt_v2(_ins.encode("utf-8")):
+                ins2ins_dict[ins].append(_ins)
+            """
             if is_nt(_ins):
                 ins2ins_dict[ins].append(_ins)
-            else:
-            	if is_nt(_ins.split(u"（")[0]):
-                    ins2ins_dict[ins].append(_ins)
+            """
             
             
     f.close()
 
-    ins_list = [u"中华人民共和国国家发展和改革委员会"] # u"国家发改委"
-    dict2graph(ins_list, ins2ins_dict)
+    #ins_list = [u"中华人民共和国国家发展和改革委员会", u"国家发改委"] # 
+    #total_hops = 2
+    ins_list = [u"中华人民共和国国家发展和改革委员会", u"伊斯兰国"] # 
+    total_hops = 2
+    dict2graph(ins_list, ins2ins_dict, hops=total_hops)
