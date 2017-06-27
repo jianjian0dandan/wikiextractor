@@ -2,7 +2,7 @@
 """词性对照表参考： http://www.bubuko.com/infodetail-735296.html
 """
 
-
+import os
 import jieba
 import jieba.posseg as pseg
 from collections import Counter
@@ -11,40 +11,59 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-jieba.load_userdict("self_dict.txt")
+AB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), './')
+
+jieba.load_userdict(os.path.join(AB_PATH, "self_dict.txt"))
 
 ins_pos_set = set(["nt"])
 per_pos_set = set(["nr", "nr1", "nr2", "nrj", "nrf"])
 loc_pos_set = set(["ns", "nsf"])
 
+
+def get_zh_word(str_):
+    zh_word = u''
+    for ch in str_:
+        if u'\u4e00' <= ch <= u'\u9fff':
+            zh_word += ch
+    return zh_word
+
+
 def extract_ne(text):
     """抽取text中的机构实体
        text: utf-8 编码
     """
-    nts = [] # institutions
-    nps = [] # persons
-    nls = [] # locations
+    nts = dict() # institutions
+    nps = dict() # persons
+    nls = dict() # locations
     for sent in text.split("。"):
         words = pseg.cut(sent)
+        sent = get_zh_word(sent.decode("utf-8").replace("\n", ""))
         for w in words:
             flag = w.flag
-            word = w.word
+            word = w.word.strip()
+            if len(word) <= 1 or word.strip() == "":
+                continue
             if flag in ins_pos_set:
-                nts.append(word)
+                try:
+                    nts[word].append(sent)
+                except KeyError:
+                    nts[word] = [sent]
             elif flag in per_pos_set:
-                nps.append(word)
+                try:
+                    nps[word].append(sent)
+                except KeyError:
+                    nps[word] = [sent]
             elif flag in loc_pos_set:
-                nls.append(word)
+                try:
+                    nls[word].append(sent)
+                except KeyError:
+                    nls[word] = [sent]
 
-    ct = Counter(nts)
-    results1 = ct.most_common()
-    ct = Counter(nps)
-    results2 = ct.most_common()
-    ct = Counter(nls)
-    results3 = ct.most_common()
+    results1 = sorted(nts.iteritems(), key=lambda (k, v): len(v), reverse=True)
+    results2 = sorted(nps.iteritems(), key=lambda (k, v): len(v), reverse=True)
+    results3 = sorted(nls.iteritems(), key=lambda (k, v): len(v), reverse=True)
 
-    return {"ins": [r[0].strip() for r in results1 if len(r[0]) > 1 and r[0].strip() != ""], "per": [r[0].strip() for r in results2 if len(r[0]) > 1 and r[0].strip() != ""], \
-            "loc": [r[0].strip() for r in results3 if len(r[0]) > 1 and r[0].strip() != ""]}
+    return {"ins": results1, "per": results2, "loc": results3}
 
 
 def is_nt(title):
@@ -70,12 +89,17 @@ def is_nt(title):
 
 
 if __name__ == '__main__':
-    texts = "中华人民共和国国家发展和改革委员会，简称国家发展改革委、国家发改委，是中华人民共和国国务院的重要组成部门（以至于被称为“小国务院”），主要负责综合研究拟订经济和社会发展政策，进行总量平衡，并指导总体经济体制改革的宏观调控[1]。"
-    result = extract_ne(texts)
-    print "-----------\n"
-    print "ins:"
-    for w in result["ins"]:
-        print w
+    with open("./20170612data/zh/wiki/8191.txt") as f:
+        result = extract_ne(f.read())
+        print "-----------wiki zh\n"
+        print "ins:"
+        for w in result["ins"]:
+            print "实体名称: ", w[0].encode("utf-8")
+            print "下面是实体出现的句子: "
+            for idx, sent in enumerate(w[1]):
+                print "句子%s: " % idx, sent.encode("utf-8")
+
+    """
     print "\n"
     print "per:"
     for w in result["per"]:
@@ -174,3 +198,4 @@ if __name__ == '__main__':
         print "loc:"
         for w in result["loc"]:
             print w
+    """

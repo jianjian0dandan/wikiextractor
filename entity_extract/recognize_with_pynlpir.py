@@ -59,6 +59,14 @@ def get_pos(text, nh_dict, ns_dict, ni_dict, title=""):
     return nh_dict, ns_dict, ni_dict
 
 
+def get_zh_word(str_):
+    zh_word = u''
+    for ch in str_:
+        if u'\u4e00' <= ch <= u'\u9fff':
+            zh_word += ch
+    return zh_word.encode("utf-8")
+
+
 def extract_ne(text):
     """text: utf-8
     """
@@ -68,6 +76,7 @@ def extract_ne(text):
     ni_dict = dict()
     sents = text.split('。')
     for sent in sents:
+        sent = get_zh_word(sent.decode("utf-8").replace("\n", ""))
     	try:
             nh_dict, ns_dict, ni_dict = get_pos(sent, nh_dict, ns_dict, ni_dict, title="")
         except:
@@ -90,6 +99,13 @@ def extract_ne(text):
 
 
 if __name__ == '__main__':
+    with open("./20170612data/zh/wiki/8191.txt") as f:
+        result = extract_ne(f.read())
+        print "-----------wiki zh\n"
+        print "ins:"
+        for w in result["ins"]:
+            print w
+    """
     texts = "中华人民共和国国家发展和改革委员会，简称国家发展改革委、国家发改委，是中华人民共和国国务院的重要组成部门（以至于被称为“小国务院”），主要负责综合研究拟订经济和社会发展政策，进行总量平衡，并指导总体经济体制改革的宏观调控[1]。"
     result = extract_ne(texts)
     print "-----------\n"
@@ -194,3 +210,4 @@ if __name__ == '__main__':
         print "loc:"
         for w in result["loc"]:
             print w
+    """
