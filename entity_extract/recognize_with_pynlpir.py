@@ -15,44 +15,26 @@ ns_set = ['toponym', 'transcribed toponym']
 ni_set = ['organization/group name']
 
 
-def get_pos(text, nh_dict, ns_dict, ni_dict, title=""):
+def get_pos(text, nh_dict, ns_dict, ni_dict):
     result = pynlpir.segment(text, pos_names='child')
     for w1,c in result:
-        w = w1.encode('utf-8')
+        w = w1
         if c in ni_set:
-            if w in title:
-                try:
-                    ni_dict[w] = ni_dict[w] + 2
-                except KeyError:
-                    ni_dict[w] = 2
-            else:
-                try:
-                    ni_dict[w] = ni_dict[w] + 1
-                except KeyError:
-                    ni_dict[w] = 1
+            try:
+                ni_dict[w].append(text.decode("utf-8"))
+            except KeyError:
+                ni_dict[w] = [text.decode("utf-8")]
             
         elif c in ns_set:
-            if w in title:
-                try:
-                    ns_dict[w] = ns_dict[w] + 2
-                except KeyError:
-                    ns_dict[w] = 2
-            else:
-                try:
-                    ns_dict[w] = ns_dict[w] + 1
-                except KeyError:
-                    ns_dict[w] = 1
+            try:
+                ns_dict[w].append(text.decode("utf-8"))
+            except KeyError:
+                ns_dict[w] = [text.decode("utf-8")]
         elif c in nh_set:
-            if w in title:
-                try:
-                    nh_dict[w] = nh_dict[w] + 2
-                except KeyError:
-                    nh_dict[w] = 2
-            else:
-                try:
-                    nh_dict[w] = nh_dict[w] + 1
-                except KeyError:
-                    nh_dict[w] = 1
+            try:
+                nh_dict[w].append(text.decode("utf-8"))
+            except KeyError:
+                nh_dict[w] = [text.decode("utf-8")]
         else:
             pass
 
@@ -78,17 +60,14 @@ def extract_ne(text):
     for sent in sents:
         sent = get_zh_word(sent.decode("utf-8").replace("\n", ""))
     	try:
-            nh_dict, ns_dict, ni_dict = get_pos(sent, nh_dict, ns_dict, ni_dict, title="")
+            nh_dict, ns_dict, ni_dict = get_pos(sent, nh_dict, ns_dict, ni_dict)
         except:
         	pass
     
-    nh = sorted(nh_dict.iteritems(), key=lambda d:d[1], reverse = True)
-    ns = sorted(ns_dict.iteritems(), key=lambda d:d[1], reverse = True)
-    ni = sorted(ni_dict.iteritems(), key=lambda d:d[1], reverse = True)
+    nh = sorted(nh_dict.iteritems(), key=lambda d:len(d[1]), reverse = True)
+    ns = sorted(ns_dict.iteritems(), key=lambda d:len(d[1]), reverse = True)
+    ni = sorted(ni_dict.iteritems(), key=lambda d:len(d[1]), reverse = True)
 
-    nh = [k.strip().decode("utf-8", 'ignore') for k, v in nh]
-    ni = [k.strip().decode("utf-8", 'ignore') for k, v in ni]
-    ns = [k.strip().decode("utf-8", 'ignore') for k, v in ns]
     item = {
         "ins": ni,
         "per": nh,
@@ -104,7 +83,27 @@ if __name__ == '__main__':
         print "-----------wiki zh\n"
         print "ins:"
         for w in result["ins"]:
-            print w
+            print "实体名称: ", w[0].encode("utf-8")
+            print "下面是实体出现的句子: "
+            for idx, sent in enumerate(w[1]):
+                print "句子%s: " % idx, sent.encode("utf-8")
+
+        print "\n"
+        print "per:"
+        for w in result["per"]:
+            print "实体名称: ", w[0].encode("utf-8")
+            print "下面是实体出现的句子: "
+            for idx, sent in enumerate(w[1]):
+                print "句子%s: " % idx, sent.encode("utf-8")
+
+        print "\n"
+        print "loc:"
+        for w in result["loc"]:
+            print "实体名称: ", w[0].encode("utf-8")
+            print "下面是实体出现的句子: "
+            for idx, sent in enumerate(w[1]):
+                print "句子%s: " % idx, sent.encode("utf-8")
+
     """
     texts = "中华人民共和国国家发展和改革委员会，简称国家发展改革委、国家发改委，是中华人民共和国国务院的重要组成部门（以至于被称为“小国务院”），主要负责综合研究拟订经济和社会发展政策，进行总量平衡，并指导总体经济体制改革的宏观调控[1]。"
     result = extract_ne(texts)
