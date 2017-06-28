@@ -64,9 +64,9 @@ def extract_ne(text):
         except:
         	pass
     
-    nh = sorted(nh_dict.iteritems(), key=lambda d:len(d[1]), reverse = True)
-    ns = sorted(ns_dict.iteritems(), key=lambda d:len(d[1]), reverse = True)
-    ni = sorted(ni_dict.iteritems(), key=lambda d:len(d[1]), reverse = True)
+    nh = sorted(nh_dict.iteritems(), key=lambda (k, v):len(v), reverse = True)
+    ns = sorted(ns_dict.iteritems(), key=lambda (k, v):len(v), reverse = True)
+    ni = sorted(ni_dict.iteritems(), key=lambda (k, v):len(v), reverse = True)
 
     item = {
         "ins": ni,
