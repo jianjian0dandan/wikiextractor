@@ -344,6 +344,7 @@ def search(query, tld='com', lang='en', tbs='0', safe='off', num=10, start=0,
         for result in results:
             anchor = result.find('h3', {"class": "r"}).find('a')
             content = result.find("div", {"class": "s"})
+            ems = content.findAll("em")
 
             a = anchor
 
@@ -361,6 +362,7 @@ def search(query, tld='com', lang='en', tbs='0', safe='off', num=10, start=0,
 
             title = a.text.replace("\n", "")
             summary = content.text.replace("\n", "")
+            ems = u"|em|".join([em.text for em in ems])
 
             # Filter invalid links and links pointing to Google itself.
             link = filter_result(link)
@@ -374,7 +376,7 @@ def search(query, tld='com', lang='en', tbs='0', safe='off', num=10, start=0,
             hashes.add(h)
 
             # Yield the result.
-            yield (link, title, summary)
+            yield (link, title, summary, ems)
 
         # End if there are no more results.
         if not soup.find(id='nav'):
