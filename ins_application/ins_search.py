@@ -9,17 +9,17 @@ from google import search
 
 if __name__ == '__main__':
     query = []
-    with open("ins_patterns1.txt") as f:
+    with open("ins_pattern.txt") as f:
         for line in f:
             query.append(line.strip())
 
-    fw = open("islamstate_search_results.txt", "a")
+    fw = open("fagaiwei_search_results.txt", "w")
     for idx, q in enumerate(query):
         if idx == 0:
             continue
         result = search(q, tld='com.hk', lang='zh', stop=None)
         for r in result:
-            url, title, summary = r
+            url, title, summary, ems = r
             print title
-            fw.write("%s|text|%s|text|%s\n" % (url, title.encode("utf-8"), summary.encode("utf-8")))
+            fw.write("%s|text|%s|text|%s|text|%s|text|%s\n" % (url, title.encode("utf-8"), summary.encode("utf-8"), ems.encode("utf-8"), q))
     fw.close()
