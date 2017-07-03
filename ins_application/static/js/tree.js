@@ -37,9 +37,51 @@ d3.csv("/flare.csv", function(error, data) {
   node.append("circle")
       .attr("r", 2.5);
 
-  node.append("text")
+  var text = node.append("text")
       .attr("dy", 3)
-      .attr("x", function(d) { return d.children ? -8 : 8; })
+      .attr("x", function(d) { return d.children ? 20 : 2; })
       .style("text-anchor", function(d) { return d.children ? "end" : "start"; })
-      .text(function(d) { return d.id.substring(d.id.lastIndexOf(".") + 1); });
+      //.attr("textstr", function(d) { return d.id.substring(d.id.lastIndexOf(".") + 1)});
+      .text(function(d) { 
+        var name = d.id.substring(d.id.lastIndexOf(".") + 1);
+        if (name.length > 6){
+          return name.substring(0, 6) + "..";
+        }else{
+          return name;
+        }
+      })
+      .append("svg:title")
+      .text(function(d) {
+        var name = d.id.substring(d.id.lastIndexOf(".") + 1);
+        return name;
+      });
+      /*
+      .on("mouseover", function(d){
+          var name = d.id.substring(d.id.lastIndexOf(".") + 1);
+          console.log(name);
+      });
+      */
+  /*
+  node.selectAll("text").selectAll(function(d){
+     var arr_ = split_text(d.id.substring(d.id.lastIndexOf(".") + 1));
+     console.log(d);
+     .selectAll("tspan")
+     .enter()
+     .append("tspan")
+     .attr("x", d.attr("x"))  
+     .attr("dy", "1em")  
+     .text(function(d){return d.attr("textstr")});
+  });
+  */
 });
+
+function split_text(str_){
+  //console.log(str_);
+  var strArr = [];
+  var n = 6;
+  for (var i = 0, l = str_.length; i < l/n; i++) {
+    var a = str_.slice(n*i, n*(i+1));
+    strArr.push(a);
+  }
+  return strArr;
+}
