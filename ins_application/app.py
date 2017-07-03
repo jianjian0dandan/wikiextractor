@@ -110,7 +110,7 @@ def index():
     target = request.args.get("target", u"发改委")
     target = target.encode("utf-8")
     if target == "发改委":
-        height = request.args.get("height", 2300)
+        height = request.args.get("height", 2400)
     else:
         height = request.args.get("height", 900)
     width = request.args.get("width", 1400)
