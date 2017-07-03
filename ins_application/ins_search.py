@@ -9,14 +9,12 @@ from google import search
 
 if __name__ == '__main__':
     query = []
-    with open("ins_pattern.txt") as f:
+    with open("ins_pattern2.txt") as f:
         for line in f:
             query.append(line.strip())
 
-    fw = open("fagaiwei_search_results.txt", "w")
+    fw = open("jiagesi_search_results.txt", "w")
     for idx, q in enumerate(query):
-        if idx == 0:
-            continue
         result = search(q, tld='com.hk', lang='zh', stop=None)
         for r in result:
             url, title, summary, ems = r
