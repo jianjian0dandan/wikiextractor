@@ -2,7 +2,7 @@ Install
 
 1. pip install flask  
 
-2. 把data文件夹解压后放到ins_application目录下  
+2. 把data文件夹解压后放到ins_application目录下, data去https://github.com/hankcs/HanLP/releases中下载    
 
 3. python app.py  
 
