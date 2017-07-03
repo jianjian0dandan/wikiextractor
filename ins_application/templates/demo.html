@@ -32,9 +32,11 @@
 </div>
 </body>
 <script src="/static/js/d3.v4.js"></script>
+
 {% if layout == "tree" %}
-   document.write('<script type="text/javascript" src="/static/js/tree.js"></script>'); 
+   <script type="text/javascript" src="/static/js/tree.js"></script>
 {% elif layout == "circle" %}
-   document.write('<script type="text/javascript" src="/static/js/circle.js"></script>');
+   <script type="text/javascript" src="/static/js/circle.js"></script>
 {% endif %}
+
 </html>
