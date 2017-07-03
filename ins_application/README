@@ -1,0 +1,21 @@
+Install  
+
+1. pip install flask  
+
+2. 把data文件夹解压后放到ins_application目录下  
+
+3. python app.py  
+
+4. 使用chrome浏览器打开  
+
+http://localhost:5000/?target=发改委  
+
+http://localhost:5000/?target=发改委  
+
+http://localhost:5000/?target=伊斯兰  
+
+上面是三个机构的演示，另外可以以如下方式调整参数  
+
+http://localhost:5000/?target=发改委&layout=tree  表示以树形式展示，http://localhost:5000/?target=发改委&layout=circle  表示以圆形式展示  
+
+另外可以加width和height参数，一般取1000以上，表示网页的宽和高
