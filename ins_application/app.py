@@ -25,7 +25,6 @@ def get_ins(target_root):
     process.close()
     ins_dict = dict()
     father = ""
-    #with open("ins_result.txt") as f:
     if len(f):
         for line in f:
             text = line.strip().decode("gbk").encode("utf-8")
@@ -39,7 +38,23 @@ def get_ins(target_root):
                     ins_dict[father].append(text)
                 except KeyError:
                     ins_dict[father] = [text]
-    process.close()
+   
+        process.close()
+    else:
+        with open("ins_result.txt") as f:
+            for line in f:
+                text = line.strip()
+                if text == "":
+                    continue
+                elif "#" in text:
+                    father = text.replace("#", "").replace("结果", "")
+                else:
+
+                    try:
+                        ins_dict[father].append(text)
+                    except KeyError:
+                        ins_dict[father] = [text]
+
     results_dict = dict()
     middle_posfix = ["通讯社", "组织", "传媒社", "协会", "研究院", "产委会", "委员会", "协会", "研究会", "中心", "公司", "司", "所", "局", "处"]
     for fa, sons in ins_dict.iteritems():
