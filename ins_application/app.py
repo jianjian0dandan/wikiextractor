@@ -7,7 +7,7 @@ from flask import Flask, Response, render_template, request
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
- 
+
 app = Flask(__name__)
 
 def get_ins(target_root):
@@ -148,7 +148,4 @@ def index():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
-    # 
-    # 
-    # 
+    app.run(host="0.0.0.0", debug=True)
