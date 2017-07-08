@@ -42,12 +42,16 @@ def index_data(folder="20170612data/zh/wiki", source="wiki", lan="zh"):
     bulk_action = []
     index_count = 0
     indexname = "db"
+    fnames = os.listdir(folder)
+
     if lan == "zh":
         doctype = "zhinfo"
+        for fname in fnames:
+            print fname
     elif lan == "en":
         doctype = "eninfo"
 
-    fnames = os.listdir(folder)
+    """
     for fname in fnames:
         filename = os.path.join(folder, fname)
         data = ""
@@ -79,7 +83,7 @@ def index_data(folder="20170612data/zh/wiki", source="wiki", lan="zh"):
         index_count += len(bulk_action) / 2
         bulk_action = []
         print "finish index: ", index_count, source, lan
-
+    """
 
 if __name__ == '__main__':
     """
@@ -88,8 +92,9 @@ if __name__ == '__main__':
     index_data(folder="20170612data/zh/dissertation/Armedorganization", source="armedorganization", lan="zh")
     index_data(folder="20170612data/zh/dissertation/CIA", source="cia", lan="zh")
     index_data(folder="20170612data/zh/dissertation/Safety", source="safety", lan="zh")
-    """
     index_data(folder="20170612data/en/News", source="news", lan="en")
     index_data(folder="20170612data/en/dissertation/Armedorganization", source="armedorganization", lan="en")
     index_data(folder="20170612data/en/dissertation/CIA", source="cia", lan="en")
     index_data(folder="20170612data/en/dissertation/Safety", source="safety", lan="en")
+    """
+    index_data(folder="/mnt/mfs/wiki/json/", source="wiki", lan="zh")

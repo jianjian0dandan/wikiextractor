@@ -1,8 +1,11 @@
 # -*-coding:utf-8-*-
+"""ES路径：/home/ubuntu7/linhao/elasticsearch-2.4.2
+   启动 ./start_es.sh
+"""
 
 from elasticsearch import Elasticsearch
 
-es = Elasticsearch("localhost:9200", timeout=600)
+es = Elasticsearch("219.224.134.212:9202", timeout=600)
 
 def create_mapping(index_name):
     index_info = {
