@@ -4,7 +4,12 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8') 
 
+import json
+#from goose import Goose
+#from goose.text import StopWordsChinese
+#from hanziconv import HanziConv
 from mapping import es
+from extractHtmlContent import htmlContentExtract
 
 def split_fix_size(str_, lan):
     """ str_: utf-8
@@ -85,6 +90,57 @@ def index_data(folder="20170612data/zh/wiki", source="wiki", lan="zh"):
         print "finish index: ", index_count, source, lan
     """
 
+def index_json(filename="", source="wiki", lan="zh"):
+    bulk_action = []
+    index_count = 0
+    indexname = "db"
+
+    if lan == "zh":
+        doctype = "zhinfo"
+    elif lan == "en":
+        doctype = "eninfo"
+
+    #g = Goose({'stopwords_class': StopWordsChinese})
+    if filename != "":
+        data = ""
+        f = open(filename)
+        for line in f:
+            item = json.loads(line.strip())
+            raw_html = item["html"]
+            url = item["url"]
+            #data = g.extract(raw_html=raw_html)
+            #data = HanziConv.toSimplified(u''.join(data.cleaned_text[:])).encode('utf-8')
+            #data = (u''.join(data.cleaned_text[:])).encode('utf-8')
+            data = htmlContentExtract(raw_html)
+
+            # 建索引的代码从这里开始写
+            sents = split_fix_size(data, lan)
+
+            for idx, sent in enumerate(sents):
+                index_dict = dict()
+                index_dict["source"] = source
+                index_dict["content"] = sent
+                if lan == "zh":
+                    index_dict["content_analyzedzh"] = sent
+                elif lan == "en":
+                    index_dict["content_analyzeden"] = sent
+                index_dict["path"] = filename + "_seg" + str(idx)
+                bulk_action.extend([{"index":{"_id": url + "_seg" + str(idx)}}, index_dict])
+                index_count += 1
+
+                if index_count !=0 and index_count % 100 == 0:
+                    es.bulk(bulk_action, index=indexname, doc_type=doctype)
+                    bulk_action = []
+                    print "finish index: ", index_count, source, lan
+        f.close()
+
+    if len(bulk_action):
+        es.bulk(bulk_action, index=indexname, doc_type=doctype)
+        index_count += len(bulk_action) / 2
+        bulk_action = []
+        print "finish index: ", index_count, source, lan
+
+
 if __name__ == '__main__':
     """
     index_data(folder="20170612data/zh/wiki", source="wiki", lan="zh")
@@ -97,4 +153,4 @@ if __name__ == '__main__':
     index_data(folder="20170612data/en/dissertation/CIA", source="cia", lan="en")
     index_data(folder="20170612data/en/dissertation/Safety", source="safety", lan="en")
     """
-    index_data(folder="/mnt/mfs/wiki/json/", source="wiki", lan="zh")
+    index_json(filename="../citiao_20170317.json", source="wiki", lan="zh")
