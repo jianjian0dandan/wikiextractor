@@ -143,13 +143,23 @@ def get_page(url, user_agent=None):
     return html
 
 def get_page_by_selenium(url):
-    print "Using selenium start open %s" % url
     geckodriver_path = os.path.join(install_folder, "geckodriver.exe")
     client = webdriver.Firefox(executable_path=geckodriver_path)
-    client.get(url)
-    html = client.page_source
-    client.close()
-    return html
+    while 1:
+        print "Using selenium start open %s" % url
+        client.get(url)
+        html = client.page_source
+        if is_bs4:
+            soup = BeautifulSoup(html, 'html.parser')
+        else:
+            soup = BeautifulSoup(html)
+        
+        if soup.find(id='search'):
+            client.close()
+            return soup
+        else:
+            time.sleep(60)
+    
 
 # Filter links found in the Google result pages HTML code.
 # Returns None if the link doesn't yield a valid result.
@@ -297,7 +307,7 @@ def search(query, tld='com', lang='en', tbs='0', safe='off', num=10, start=0,
             )
 
     # Grab the cookie from the home page.
-    get_page_by_selenium(url_home % vars())
+    #get_page_by_selenium(url_home % vars())
 
     # Prepare the URL of the first request.
     if start:
@@ -326,19 +336,22 @@ def search(query, tld='com', lang='en', tbs='0', safe='off', num=10, start=0,
         time.sleep(pause)
 
         # Request the Google Search results page.
-        html = get_page_by_selenium(url)
+        soup = get_page_by_selenium(url)
 
         # Parse the response and process every anchored URL.
+        """
         if is_bs4:
             soup = BeautifulSoup(html, 'html.parser')
         else:
             soup = BeautifulSoup(html)
         """
+        """
         with open("test.txt", "w") as fw:
             print soup.prettify()
             fw.write("%s" % str(soup.find(id="search").prettify()))
         """
-        results = soup.find(id='search').findAll("div", {"class": "rc"})
+        sp = soup.find(id='search')
+        results = sp.findAll("div", {"class": "rc"})
         if len(results) == 0:
             break
         for result in results:
