@@ -24,7 +24,7 @@ if __name__ == '__main__':
         tbs = "cdr:1,cd_min:%s,cd_max:%s" % (datestr, datestr)
         tbs_list.append(tbs)
 
-    fw = open("keywords_fagaiwei_search_summary.txt", "a")
+    fw = open("keywords_fagaiwei_search_summary.txt", "w")
     for idx, q in enumerate(keywords):
         for tbs in tbs_list: 
             result = search(q, tld='com.hk', lang='zh', tbs=tbs, stop=None)
