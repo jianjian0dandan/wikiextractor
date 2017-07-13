@@ -125,4 +125,12 @@ refer to <https://pypi.python.org/pypi/opencc-python/0.1> for opencc usage
 
 refer to <https://github.com/HIT-SCIR/ltp/blob/master/doc/install.rst> for installation  
 
-refer to <http://pyltp.readthedocs.io/zh_CN/latest/> for usage
+refer to <http://pyltp.readthedocs.io/zh_CN/latest/> for usage  
+
+# installation of others  
+
+elasticsearch 5 安装 Head插件 <http://blog.csdn.net/yx1214442120/article/details/55102298> 
+
+网页正文提取工具<https://github.com/grangier/python-goose  
+
+汉字繁简转换pip install hanziconv
