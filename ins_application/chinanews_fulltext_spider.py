@@ -11,7 +11,7 @@ import urllib2
 from extractHtmlContent import htmlContentExtract
 
 if __name__ == '__main__':
-    fulltext_filename = "fagaiwei_search_results1_fulltext.txt"
+    fulltext_filename = "fagaiwei_search_results2_fulltext.txt"
     crawled_urls = set()
     if os.path.exists(fulltext_filename):
         with open(fulltext_filename) as f:
@@ -20,7 +20,7 @@ if __name__ == '__main__':
                 crawled_urls.add(data[0])
 
     urls = set()
-    with open("fagaiwei_search_results1.txt") as f:
+    with open("fagaiwei_search_results2.txt") as f:
         for line in f:
             data = line.strip().split("|text|")
             urls.add(data[1])
@@ -41,7 +41,8 @@ if __name__ == '__main__':
                 #driver.get(url)
                 #web_data = driver.page_source
                 web_data = urllib2.urlopen(url, timeout=5).read().decode("gb2312")
-                content = htmlContentExtract(web_data)
+                # content = htmlContentExtract(web_data)
+                content = web_data
                 return content
             except:
                 #time.sleep(2)

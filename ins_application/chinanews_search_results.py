@@ -100,6 +100,8 @@ def crawl_search_post(query, filename, count):
         result = post(base_url, data)
         hrefs = get_links(result, filename, query.decode("utf-8"))
         if hrefs != "error":
+            if len(hrefs) == 0:
+                start += 1
             start += len(hrefs)
             print "count %s:" % start, len(hrefs)
         else:
@@ -117,7 +119,7 @@ def post(url, data):
 
 
 if __name__ == '__main__':
-    querys = ['发改委'] # '国家发展和改革委员会', '国家发改委', 
+    querys = ['国家发展和改革委员会', '国家发改委'] # ['发改委']
     filename = "fagaiwei_search_results2.txt"
     count = 90255
     for query in querys:
