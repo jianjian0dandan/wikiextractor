@@ -67,4 +67,5 @@ def create_mapping(index_name):
 
 
 if __name__=='__main__':
-    create_mapping("db")
+    #create_mapping("db")
+    create_mapping("db1")

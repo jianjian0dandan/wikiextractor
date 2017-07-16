@@ -102,3 +102,7 @@ entity_extract/20170612data
 ins_application/data
 ins_application/flare.csv
 zhslotfilling/20170612data/
+ins_application/fagaiwei_search_results2.txt
+ins_application/fagaiwei_search_results2_fulltext.txt
+ins_application/sents.txt
+ins_application/chinanews_fagaiwei_content.txt
