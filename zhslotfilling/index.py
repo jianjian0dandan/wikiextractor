@@ -139,7 +139,7 @@ def index_json(filename="", source="wiki", lan="zh"):
 def index_sents(filename="", source="wiki", lan="zh"):
     bulk_action = []
     index_count = 0
-    indexname = "db1"
+    indexname = "db2"
 
     if lan == "zh":
         doctype = "zhinfo"
@@ -224,6 +224,50 @@ def index_google_news(filename="", source="google_search", lan="zh"):
         index_count += len(bulk_action) / 2
         bulk_action = []
 
+def index_fagaiwei_content(filename="", source="chinanews", lan="zh"):
+    bulk_action = []
+    index_count = 0
+    indexname = "db3"
+
+    if lan == "zh":
+        doctype = "zhinfo"
+    elif lan == "en":
+        doctype = "eninfo"
+
+    if filename != "":
+        data = ""
+        f = open(filename)
+        for id_, line in enumerate(f):
+            d = line.strip().split("|text|")
+            url = d[0]
+            data = d[1]
+
+            # 建索引的代码从这里开始写
+            sents = split_fix_size(data, lan)
+
+            for idx, sent in enumerate(sents):
+                index_dict = dict()
+                index_dict["source"] = source
+                index_dict["content"] = sent
+                if lan == "zh":
+                    index_dict["content_analyzedzh"] = sent
+                elif lan == "en":
+                    index_dict["content_analyzeden"] = sent
+                index_dict["path"] = filename + "_seg" + str(idx)
+                bulk_action.extend([{"index":{"_id": url + "_seg" + str(idx)}}, index_dict])
+                index_count += 1
+
+                if index_count !=0 and index_count % 100 == 0:
+                    es.bulk(bulk_action, index=indexname, doc_type=doctype)
+                    bulk_action = []
+                    print "finish index: ", index_count, source, lan
+        f.close()
+
+    if len(bulk_action):
+        es.bulk(bulk_action, index=indexname, doc_type=doctype)
+        index_count += len(bulk_action) / 2
+        bulk_action = []
+
 
 if __name__ == '__main__':
     """
@@ -238,4 +282,5 @@ if __name__ == '__main__':
     index_json(filename="../citiao_20170317.json", source="wiki", lan="zh")
     """
     #index_sents(filename="../ins_application/sents.txt", source="chinanews", lan="zh")
-    index_google_news(filename="../ins_application/fagaiwei_search_results.txt", source="google_search", lan="zh")
+    #index_google_news(filename="../ins_application/fagaiwei_search_results.txt", source="google_search", lan="zh")
+    index_fagaiwei_content(filename="../ins_application/chinanews_fagaiwei_content.txt", source="chinanews", lan="zh")
