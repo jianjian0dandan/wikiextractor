@@ -117,11 +117,20 @@ def post(url, data):
     response = opener.open(req, data)  
     return response.read() 
 
+def getSearchCount(query):
+    html = urllib2.urlopen("http://sou.chinanews.com.cn/search.do?q=%s" % query).read()
+    soup = BeautifulSoup(html)
+    return int(soup.find("div", {"id": "search_rs_info"}).find_all("span")[-1].text.replace(",", ""))
 
 if __name__ == '__main__':
-    querys = ['国家发展和改革委员会', '国家发改委'] # ['发改委']
-    filename = "fagaiwei_search_results2.txt"
-    count = 90255
-    for query in querys:
-        crawl_search_post(query, filename, count)
-        #crawl_search_results(query, filename)
+    #querys = ['发改委价格司'] # ['国家发展和改革委员会', '国家发改委', '发改委']
+    filename = "fagaiwei_search_results_fagaiwei_children.txt"
+    querys = []
+    with open("fagaiwei_children_list.txt") as f:
+        for line in f:
+            querys.append(line.strip())
+    for idx, query in enumerate(querys):
+        if idx > 79:
+            count = getSearchCount(query)
+            print query, count
+            crawl_search_post(query, filename, count)

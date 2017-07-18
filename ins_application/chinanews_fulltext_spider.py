@@ -11,7 +11,8 @@ import urllib2
 from extractHtmlContent import htmlContentExtract
 
 if __name__ == '__main__':
-    fulltext_filename = "fagaiwei_search_results2_fulltext.txt"
+    url2time_dict = dict()
+    fulltext_filename = "fagaiwei_search_results_fagaiwei_children_fulltext.txt"
     crawled_urls = set()
     if os.path.exists(fulltext_filename):
         with open(fulltext_filename) as f:
@@ -20,10 +21,16 @@ if __name__ == '__main__':
                 crawled_urls.add(data[0])
 
     urls = set()
-    with open("fagaiwei_search_results2.txt") as f:
+    with open("fagaiwei_search_results_fagaiwei_children.txt") as f:
         for line in f:
             data = line.strip().split("|text|")
             urls.add(data[1])
+            #print data[3]
+            if "html" in data[3]:
+                date = data[3].split("html")[1].strip().replace("\t", "").lstrip(" ")
+            else:
+                date = data[3].strip().replace("\t", "").replace(" ", "").lstrip(" ")
+            url2time_dict[data[1]] = date
 
     task = urls - crawled_urls
     print len(task)
@@ -62,7 +69,8 @@ if __name__ == '__main__':
         content = geturl(driver, url)
         if content is not None:
             content = content.replace("\n", "")
-            fw.write("%s|text|%s\n" % (url, content))
+            date = url2time_dict[url]
+            fw.write("%s|text|%s|text|%s\n" % (url, content, date))
         #if cnt % 10 == 0:
         #    time.sleep(2)
         cnt += 1
