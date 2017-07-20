@@ -9,11 +9,11 @@ from google import search
 
 if __name__ == '__main__':
     query = []
-    with open("ins_pattern2.txt") as f:
+    with open("ins_pattern3.txt") as f:
         for line in f:
             query.append(line.strip())
 
-    fw = open("jiagesi_search_results.txt", "w")
+    fw = open("jingjiyunxingtiaojieju_search_results.txt", "w")
     for idx, q in enumerate(query):
         result = search(q, tld='com.hk', lang='zh', stop=None)
         for r in result:
