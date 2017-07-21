@@ -29,10 +29,11 @@ def fetch_content(url2html, resultfname):
         for line in infile:
             parts = line.split('|text|')
             url = parts[0]
-            html = parts[1]
+            html = parts[1].replace("\n", "")
+            date = parts[2].replace("\n", "")
             content = fetch_content_from_html(html)
-            fw.write("%s|text|%s\n" % (url, content))
+            fw.write("%s|text|%s|text|%s\n" % (url, content, date))
     fw.close()
 
 if __name__ == '__main__':
-    fetch_content('fagaiwei_search_results2_fulltext.txt', 'chinanews_fagaiwei_content.txt')
+    fetch_content('fagaiwei_search_results_fagaiwei_children_fulltext.txt', 'fagaiwei_children_content.txt')
