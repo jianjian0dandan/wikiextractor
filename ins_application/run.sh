@@ -1,4 +1,6 @@
 #!/bin/bash
 
 source /etc/profile
-python app.py
+#java -jar RecogSubsidiaries.jar first
+python app20170721.py
+
