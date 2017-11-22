@@ -1,0 +1,173 @@
+Ministry of the Armed Forces (France)|||National Gendarmerie
+Ministry of the Armed Forces (France)|||DPSD
+Ministry of the Armed Forces (France)|||Institut des hautes études de défense nationale
+Ministry of the Armed Forces (France)|||Ministère français
+Ministry of the Armed Forces (France)|||Direction générale de l'armement
+Ministry of the Armed Forces (France)|||Directorate-General for External Security
+Ministry of the Armed Forces (France)|||National Police
+Ministry of the Armed Forces (France)|||General Directorate for Internal Security
+Ministry of the Armed Forces (France)|||National Assembly
+Ministry of the Armed Forces (France)|||NATO
+Ministry of the Armed Forces (France)|||Secretariat-General for National Defence and Security
+Ministry of the Armed Forces (France)|||École de guerre
+Ministry of the Armed Forces (France)|||Naval Group
+Ministry of the Armed Forces (France)|||Dassault Aviation
+Ministry of the Armed Forces (France)|||Pôle emploi
+Ministry of the Armed Forces (France)|||French Navy
+Ministry of the Armed Forces (France)|||French Defence Health Service
+Ministry of the Armed Forces (France)|||Direction générale de la Gendarmerie Nationale
+Ministry of the Armed Forces (France)|||Government of France
+Ministry of the Armed Forces (France)|||BNP Paribas
+Ministry of the Armed Forces (France)|||Senate
+National Gendarmerie|||National Guard
+National Gendarmerie|||Imperial Guard
+National Gendarmerie|||French Naval Aviation
+National Gendarmerie|||Royal Moroccan Armed Forces
+National Gendarmerie|||National Liberation Front
+National Gendarmerie|||French Foreign Legion
+National Gendarmerie|||French Air Force
+National Gendarmerie|||French Forces of the Interior
+National Gendarmerie|||French Army
+National Gendarmerie|||French Armed Forces
+National Gendarmerie|||Armed Forces of the Republic of Ivory Coast
+National Gendarmerie|||Military of Mali
+National Gendarmerie|||Carabinieri
+National Gendarmerie|||Chasseur
+Direction générale de l'armement|||Ministry of the Armed Forces
+Direction générale de l'armement|||Thales Group
+Direction générale de l'armement|||CNES
+Direction générale de l'armement|||MBDA
+Direction générale de l'armement|||APEC
+Directorate-General for External Security|||Research and Analysis Wing
+Directorate-General for External Security|||Federal Bureau of Investigation
+Directorate-General for External Security|||Mossad
+Directorate-General for External Security|||Direction centrale des renseignements généraux
+Directorate-General for External Security|||Direction Nationale du Renseignement et des Enquêtes Douanières
+Directorate-General for External Security|||GIGN
+Directorate-General for External Security|||Interpol
+Directorate-General for External Security|||Agence nationale de la sécurité des systèmes d'information
+Directorate-General for External Security|||Central Intelligence Agency
+Directorate-General for External Security|||Government Communications Headquarters
+Directorate-General for External Security|||KGB
+Directorate-General for External Security|||National Security Agency
+Directorate-General for External Security|||MI5
+Directorate-General for External Security|||Tracfin
+Directorate-General for External Security|||Federal Intelligence Service
+General Directorate for Internal Security|||Central Directorate of the Judicial Police
+General Directorate for Internal Security|||Research and Intervention Brigade
+General Directorate for Internal Security|||Secret Intelligence Service
+General Directorate for Internal Security|||Islamic State of Iraq and the Levant
+General Directorate for Internal Security|||Compagnies Républicaines de Sécurité
+National Assembly|||Federal Public Service Commission
+National Assembly|||Federal Board of Revenue
+National Assembly|||Inter-Services Public Relations
+National Assembly|||Ministry of Law and Justice
+National Assembly|||National Testing Service
+National Assembly|||Election Commission of Pakistan
+NATO|||United Nations Security Council
+NATO|||Reuters
+NATO|||Organization for Security and Co-operation in Europe
+NATO|||Shanghai Cooperation Organisation
+NATO|||UNESCO
+NATO|||International Monetary Fund
+NATO|||Taliban
+NATO|||World Bank
+NATO|||Al-Qaeda
+NATO|||European Union
+NATO|||European Parliament
+NATO|||World Trade Organization
+NATO|||Warsaw Pact
+NATO|||OECD
+NATO|||United Nations
+NATO|||BRICS
+NATO|||Collective Security Treaty Organization
+NATO|||Commonwealth of Independent States
+NATO|||Council of Europe
+NATO|||G20
+NATO|||Association of Southeast Asian Nations
+Naval Group|||SAGEM
+Naval Group|||Alstom
+Naval Group|||Lockheed Martin
+Naval Group|||Veolia
+Naval Group|||Constructions industrielles de la Méditerranée
+Naval Group|||Safran
+Naval Group|||Areva
+Naval Group|||thyssenkrupp
+Naval Group|||Nexter Systems
+Naval Group|||Navantia
+Naval Group|||Technip
+Naval Group|||Safran Aircraft Engines
+Naval Group|||Leonardo S.p.A.
+Naval Group|||BAE Systems
+Naval Group|||Électricité de France
+Naval Group|||Airbus Helicopters
+Naval Group|||Damen Group
+Naval Group|||Engie
+Naval Group|||Airbus Group
+Naval Group|||ThyssenKrupp Marine Systems
+Naval Group|||Fincantieri
+Dassault Aviation|||Learjet
+Dassault Aviation|||Beechcraft
+Dassault Aviation|||Pilatus Aircraft
+Dassault Aviation|||Sukhoi
+Dassault Aviation|||NetJets
+Dassault Aviation|||Gulfstream Aerospace
+Dassault Aviation|||Boeing
+Dassault Aviation|||Dassault Systèmes
+Dassault Aviation|||Aérospatiale
+Dassault Aviation|||Bombardier Inc.
+Dassault Aviation|||ATR
+Dassault Aviation|||Hindustan Aeronautics Limited
+Dassault Aviation|||Embraer
+Dassault Aviation|||Dassault Group
+Dassault Aviation|||Cessna
+Pôle emploi|||Leroy Merlin
+Pôle emploi|||Randstad Holding
+Pôle emploi|||The Adecco Group
+Pôle emploi|||ManpowerGroup
+Pôle emploi|||Cadremploi
+Pôle emploi|||Decathlon Group
+Pôle emploi|||UNEDIC
+Pôle emploi|||Meteojob
+French Navy|||Royal Netherlands Navy
+French Navy|||Spanish Navy
+French Navy|||Royal Air Force
+French Navy|||German Navy
+French Navy|||Soviet Navy
+French Navy|||Indian Navy
+French Navy|||United States Navy
+French Navy|||Free France
+French Navy|||Imperial Japanese Navy
+French Navy|||Free French Naval Forces
+French Navy|||Royal Canadian Navy
+French Navy|||Royal Australian Navy
+French Navy|||Royal Navy
+French Navy|||Russian Navy
+French Navy|||People's Liberation Army Navy
+French Navy|||Polish Navy
+French Navy|||Brazilian Navy
+French Navy|||Italian Navy
+BNP Paribas|||Crédit Lyonnais
+BNP Paribas|||Crédit Mutuel
+BNP Paribas|||Crédit Agricole
+BNP Paribas|||Cardif
+BNP Paribas|||ING Group
+BNP Paribas|||ABN AMRO
+BNP Paribas|||BNP Paribas Fortis
+BNP Paribas|||Banca Nazionale del Lavoro
+BNP Paribas|||Boursorama
+BNP Paribas|||Morgan Stanley
+BNP Paribas|||Credit Suisse
+BNP Paribas|||Crédit Industriel et Commercial
+BNP Paribas|||HSBC
+BNP Paribas|||Orange S.A.
+BNP Paribas|||Natixis
+BNP Paribas|||Goldman Sachs
+BNP Paribas|||Barclays
+BNP Paribas|||JPMorgan Chase
+BNP Paribas|||Société Générale
+BNP Paribas|||UBS
+BNP Paribas|||Citigroup
+BNP Paribas|||Deutsche Bank
+BNP Paribas|||Groupe Caisse d'Épargne
+BNP Paribas|||La Banque postale
