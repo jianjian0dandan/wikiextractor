@@ -1,0 +1,999 @@
+Ministry of the Armed Forces (France)|||French Defence Health Service
+Ministry of the Armed Forces (France)|||DPSD
+Ministry of the Armed Forces (France)|||French Defence Health Service
+Ministry of the Armed Forces (France)|||DPSD
+Ministry of the Armed Forces (France)|||Institut des hautes études de défense nationale
+Ministry of the Armed Forces (France)|||National Assembly
+Ministry of the Armed Forces (France)|||National Police
+Ministry of the Armed Forces (France)|||General Directorate for Internal Security
+National Security Agency|||Defense Intelligence Agency
+National Security Agency|||National Geospatial-Intelligence Agency
+National Security Agency|||Transportation Security Administration
+National Security Agency|||Apple
+National Security Agency|||NASA
+National Security Agency|||United States Department of Homeland Security
+National Security Agency|||United States Department of Defense
+National Security Agency|||Google
+National Security Agency|||SonicWall
+GIGN|||JW GROM
+GIGN|||Canadian Armed Forces
+GIGN|||Joint Task Force 2
+GIGN|||Spetsnaz
+GIGN|||National Police Intervention Force
+GIGN|||Joint Special Operations Command
+GIGN|||National Police Intervention Groups
+GIGN|||KGB
+GIGN|||OMON
+GIGN|||United States Navy SEALs
+GIGN|||Batalhão de Operações Policiais Especiais
+Central Intelligence Agency|||United States Secret Service
+Central Intelligence Agency|||American Civil Liberties Union
+Central Intelligence Agency|||Mossad
+Central Intelligence Agency|||Drug Enforcement Administration
+Secret Intelligence Service|||British Army
+Secret Intelligence Service|||Military Intelligence Directorate
+Secret Intelligence Service|||Special Operations Executive
+Secret Intelligence Service|||Free Syrian Army
+Secret Intelligence Service|||Military Intelligence Corps
+Secret Intelligence Service|||Provisional Irish Republican Army
+Secret Intelligence Service|||British Armed Forces
+Secret Intelligence Service|||Special Forces
+Secret Intelligence Service|||Schutzstaffel
+Secret Intelligence Service|||Office of Naval Intelligence
+Secret Intelligence Service|||Israel Defense Forces
+Secret Intelligence Service|||Delta Force
+Secret Intelligence Service|||Office of Strategic Services
+Secret Intelligence Service|||Royal Air Force
+Secret Intelligence Service|||Royal Navy
+Secret Intelligence Service|||Special Boat Service
+Secret Intelligence Service|||National Security Intelligence
+Islamic State of Iraq and the Levant|||Hamas
+Islamic State of Iraq and the Levant|||Al-Nusra Front
+Islamic State of Iraq and the Levant|||Syrian Democratic Forces
+Islamic State of Iraq and the Levant|||Democratic Union Party
+Islamic State of Iraq and the Levant|||Popular Mobilization Forces
+Islamic State of Iraq and the Levant|||Amaq News Agency
+Islamic State of Iraq and the Levant|||Al-Qaeda
+Islamic State of Iraq and the Levant|||RT
+Islamic State of Iraq and the Levant|||People's Protection Units
+Islamic State of Iraq and the Levant|||CNN
+Islamic State of Iraq and the Levant|||Peshmerga
+Islamic State of Iraq and the Levant|||Al Jazeera
+Islamic State of Iraq and the Levant|||Sputnik
+Islamic State of Iraq and the Levant|||Taliban
+Islamic State of Iraq and the Levant|||Reuters
+Islamic State of Iraq and the Levant|||Al-Shabaab
+Islamic State of Iraq and the Levant|||United Nations
+Islamic State of Iraq and the Levant|||Kurdistan Workers' Party
+Islamic State of Iraq and the Levant|||Boko Haram
+Islamic State of Iraq and the Levant|||Hezbollah
+Interpol|||El Pintor2014
+Interpol|||Try It On2011, EP
+Interpol|||The Black EP2003, EP
+Interpol|||Precipitate EP2001, EP
+Interpol|||Demo Tape1998
+Interpol|||Interpol2010
+Interpol|||Evil EP2005, EP
+Interpol|||Turn on the Bright Lights2002
+Interpol|||Fukd ID #32000, EP
+Interpol|||Interpol: Live in Astoria EP2007, EP
+Interpol|||Our Love to Admire2007
+Interpol|||Interpol Remix2005, EP
+Interpol|||Antics: The Special Edition2005
+Interpol|||Antics2004
+MI5|||Irish National Liberation Army
+MI5|||Unit 8200
+MI5|||Real Irish Republican Army
+MI5|||Air Force Intelligence, Surveillance and Reconnaissance Agency
+MI5|||Force Research Unit
+Tracfin|||Direction générale de la concurrence, de la consommation et de la répression des fraudes
+Tracfin|||Europol
+Tracfin|||Financial Transactions and Reports Analysis Centre of Canada
+Tracfin|||Commission nationale de l'informatique et des libertés
+Federal Bureau of Investigation|||Marshalls
+Federal Bureau of Investigation|||U.S. Customs and Border Protection
+Federal Bureau of Investigation|||Kaspersky Lab
+Federal Bureau of Investigation|||Internal Revenue Service
+Federal Bureau of Investigation|||Southeastern Conference
+Federal Bureau of Investigation|||Bureau of Alcohol, Tobacco, Firearms and Explosives
+Federal Bureau of Investigation|||Central Bureau of Investigation
+Federal Bureau of Investigation|||California Highway Patrol
+Federal Bureau of Investigation|||United States Department of Justice
+Federal Bureau of Investigation|||New York City Police Department
+Federal Bureau of Investigation|||National Collegiate Athletic Association
+Federal Bureau of Investigation|||State Bank of India
+Compagnies Républicaines de Sécurité|||Agent de surveillance de la voie publique
+Compagnies Républicaines de Sécurité|||Catholic Relief Services
+Agence nationale de la sécurité des systèmes d'information|||Confédération Générale des Petites et Moyennes Entreprises
+Agence nationale de la sécurité des systèmes d'information|||National Institute of Standards and Technology
+Agence nationale de la sécurité des systèmes d'information|||Agence nationale des fréquences
+Agence nationale de la sécurité des systèmes d'information|||Thales Group
+Agence nationale de la sécurité des systèmes d'information|||European Union Agency for Network and Information Security
+Agence nationale de la sécurité des systèmes d'information|||APEC
+Ministry of the Armed Forces (France)|||Directorate-General for External Security
+Government Communications Headquarters|||Federal Security Service
+Government Communications Headquarters|||National Crime Agency
+Government Communications Headquarters|||Ministry of Defence
+Government Communications Headquarters|||BAE Systems
+Government Communications Headquarters|||Home Office
+Government Communications Headquarters|||Australian Signals Directorate
+Government Communications Headquarters|||WikiLeaks
+Government Communications Headquarters|||Foreign and Commonwealth Office
+Government Communications Headquarters|||Bletchley Park
+Government Communications Headquarters|||BBC
+Government Communications Headquarters|||Five Eyes
+Government Communications Headquarters|||National Cyber Security Centre
+Government Communications Headquarters|||Defence Science and Technology Laboratory
+Research and Analysis Wing|||Ministry of External Affairs
+Research and Analysis Wing|||Inter-Services Intelligence
+Research and Analysis Wing|||National Security Guard
+Research and Analysis Wing|||National Investigation Agency
+Research and Analysis Wing|||Intelligence Bureau
+Research and Analysis Wing|||Defence Intelligence Agency
+Research and Analysis Wing|||Indian Space Research Organisation
+Research and Analysis Wing|||Ministry of Home Affairs
+Research and Analysis Wing|||Special Frontier Force
+Research and Analysis Wing|||National Technical Research Organisation
+Research and Analysis Wing|||Aviation Research Centre
+Research and Analysis Wing|||Defence Research and Development Organisation
+Research and Analysis Wing|||Enforcement Directorate
+Research and Analysis Wing|||Indian Police Service
+Research and Analysis Wing|||Union Public Service Commission
+Research and Analysis Wing|||Sashastra Seema Bal
+Research and Analysis Wing|||Narcotics Control Bureau
+Research and Analysis Wing|||Border Security Force
+Federal Intelligence Service|||Militärischer Abschirmdienst
+Federal Intelligence Service|||Federal Office for Information Security
+Federal Intelligence Service|||Landeskriminalamt
+Federal Intelligence Service|||Federal Foreign Office
+Federal Intelligence Service|||Federal Police
+Federal Intelligence Service|||National Intelligence Organization
+Federal Intelligence Service|||Federal Ministry of the Interior (Germany)
+Federal Intelligence Service|||Federal Office for the Protection of the Constitution
+Federal Intelligence Service|||Federal Ministry of Defence (Germany)
+Federal Intelligence Service|||Cabinet of Germany
+Federal Intelligence Service|||Federal Criminal Police Office
+Federal Intelligence Service|||Stasi
+Federal Intelligence Service|||Bundestag
+Federal Intelligence Service|||Bundeswehr
+Ministry of the Armed Forces (France)|||Dassault Aviation
+Pilatus Aircraft|||Lycoming Engines
+Pilatus Aircraft|||Cirrus Aircraft
+Pilatus Aircraft|||Piper Aircraft
+Pilatus Aircraft|||Lancair
+Pilatus Aircraft|||Sikorsky Aircraft
+Pilatus Aircraft|||Textron
+Pilatus Aircraft|||Mooney International Corporation
+Pilatus Aircraft|||DAHER-SOCATA
+Pilatus Aircraft|||Airbus
+Pilatus Aircraft|||Jet Aviation
+Pilatus Aircraft|||RUAG
+Pilatus Aircraft|||Fokker
+Hindustan Aeronautics Limited|||Ordnance Factories Board
+Hindustan Aeronautics Limited|||BEML Limited
+Hindustan Aeronautics Limited|||Oil and Natural Gas Corporation
+Hindustan Aeronautics Limited|||Larsen & Toubro
+Hindustan Aeronautics Limited|||Bharat Heavy Electricals
+Hindustan Aeronautics Limited|||GAIL
+Hindustan Aeronautics Limited|||Steel Authority of India
+Hindustan Aeronautics Limited|||Aeronautical Development Agency
+Hindustan Aeronautics Limited|||Power Grid Corporation of India
+Hindustan Aeronautics Limited|||Indian Telephone Industries Limited
+Hindustan Aeronautics Limited|||Bharat Petroleum
+Hindustan Aeronautics Limited|||National Aerospace Laboratories
+Hindustan Aeronautics Limited|||Indian Oil Corporation
+Hindustan Aeronautics Limited|||Oil India
+Hindustan Aeronautics Limited|||Bharat Electronics Limited
+Hindustan Aeronautics Limited|||Air India
+Hindustan Aeronautics Limited|||Hindustan Petroleum
+Hindustan Aeronautics Limited|||NTPC Limited
+Hindustan Aeronautics Limited|||Hindustan Copper
+NetJets|||Comlux
+NetJets|||FlightSafety International
+NetJets|||VistaJet
+NetJets|||JetSuite
+NetJets|||Flexjet LLC
+NetJets|||ExecuJet Aviation Group
+NetJets|||Charter Communications
+NetJets|||Lubrizol
+NetJets|||Hawker Beechcraft
+NetJets|||PrivatAir
+NetJets|||XOJET
+NetJets|||FlightAware
+NetJets|||Air Partner
+NetJets|||Wheels Up
+NetJets|||Lufthansa
+NetJets|||JetSmarter
+ATR|||ITV
+ATR|||BBC One
+ATR|||Sky Racing
+ATR|||Raidió Teilifís Éireann
+ATR|||TVG Network
+ATR|||BBC Sport
+ATR|||Racing UK
+ATR|||BBC News
+ATR|||Sky Sports
+Airbus Helicopters|||Helibras
+Airbus Helicopters|||Safran Helicopter Engines
+Airbus Helicopters|||Agusta
+Airbus Helicopters|||NHIndustries
+Airbus Helicopters|||Astrium
+Airbus Helicopters|||Bell Helicopter
+Airbus Helicopters|||Cassidian
+Airbus Helicopters|||AgustaWestland
+Beechcraft|||De Havilland
+Beechcraft|||Pratt & Whitney
+Beechcraft|||Hawker Aircraft
+Beechcraft|||Raytheon
+Beechcraft|||Federal Aviation Administration
+Beechcraft|||Garmin Ltd.
+Gulfstream Aerospace|||Honeywell
+Gulfstream Aerospace|||Rolls-Royce Holdings plc
+Gulfstream Aerospace|||Jayco, Inc.
+Gulfstream Aerospace|||Forest River
+Gulfstream Aerospace|||Airstream
+Gulfstream Aerospace|||General Dynamics
+Gulfstream Aerospace|||Grumman
+Aérospatiale|||Arms industry
+Aérospatiale|||Electronics
+Aérospatiale|||Communication
+Aérospatiale|||Industry
+Aérospatiale|||Biotechnology
+Aérospatiale|||Automotive industry
+Aérospatiale|||Engineering
+Aérospatiale|||Transport
+Aérospatiale|||Automation
+Aérospatiale|||Aeronautics
+Aérospatiale|||Robotics
+Aérospatiale|||Telecommunications
+Aérospatiale|||Manufacturing
+Aérospatiale|||Logistics
+Aérospatiale|||Aviation
+Aérospatiale|||Spacecraft
+Aérospatiale|||Security
+Aérospatiale|||Spaceflight
+Aérospatiale|||Energy
+Aérospatiale|||Consultant
+Aérospatiale|||Airline
+Aérospatiale|||Technology
+Aérospatiale|||Construction
+Aérospatiale|||Pharmaceutical industry
+Safran Aircraft Engines|||Messier-Bugatti-Dowty
+Safran Aircraft Engines|||General Electric
+Safran Aircraft Engines|||SNCF
+Safran Aircraft Engines|||CFM International
+Safran Aircraft Engines|||Labinal
+Safran Aircraft Engines|||SAGEM
+Safran Aircraft Engines|||Safran Identity and Security
+Safran Aircraft Engines|||PowerJet
+Safran Aircraft Engines|||GE Aviation
+Safran Aircraft Engines|||Saint-Gobain
+Safran Aircraft Engines|||Alstom
+Bombardier Inc.|||Siemens
+Bombardier Inc.|||Bombardier Aerospace
+Bombardier Inc.|||BRP-Rotax GmbH & Co. KG
+Bombardier Inc.|||Air Canada
+Bombardier Inc.|||Arctic Cat
+Bombardier Inc.|||Adtranz
+Bombardier Inc.|||Can-Am motorcycles
+Bombardier Inc.|||SNC-Lavalin
+Bombardier Inc.|||Polaris Industries
+Bombardier Inc.|||Bombardier Recreational Products
+Safran|||L-1 Identity Solutions
+Safran|||Sanofi
+Safran|||LVMH
+Safran|||Veolia
+Safran|||Engie
+Safran|||Capgemini
+Safran|||Zodiac Aerospace
+Safran|||Air Liquide
+Sukhoi|||Leonardo S.p.A.
+Sukhoi|||Irkut Corporation
+Sukhoi|||Rosoboronexport
+Sukhoi|||Komsomolsk-on-Amur Aircraft Plant
+Sukhoi|||Yakovlev
+Sukhoi|||United Aircraft Corporation
+Sukhoi|||Interjet
+Sukhoi|||Northrop Corporation
+Sukhoi|||Antonov
+Sukhoi|||Aeroflot
+Sukhoi|||Beriev
+Sukhoi|||Kamov
+Sukhoi|||Russian Aircraft Corporation MiG
+Sukhoi|||Tupolev
+Sukhoi|||Ilyushin
+Lockheed Martin|||SpaceX
+Lockheed Martin|||Lockheed Corporation
+Lockheed Martin|||Northrop Grumman
+Lockheed Martin|||Booz Allen Hamilton
+Lockheed Martin|||Deloitte
+Lockheed Martin|||Fincantieri
+Lockheed Martin|||Ross Stores
+Lockheed Martin|||L3 Technologies
+Lockheed Martin|||Skunk Works
+Lockheed Martin|||Leidos
+Lockheed Martin|||United Technologies Corporation
+Lockheed Martin|||United Launch Alliance
+Cessna|||Ferrari S.p.A.
+Dassault Systèmes|||Exalead
+Dassault Systèmes|||Mentor Graphics
+Dassault Systèmes|||Accelrys
+Dassault Systèmes|||Mastercam
+Dassault Systèmes|||Cenit
+Dassault Systèmes|||Netvibes
+Dassault Systèmes|||Bentley Systems
+Dassault Systèmes|||SIMULIA
+Dassault Systèmes|||Delcam
+Dassault Systèmes|||Intergraph
+Dassault Systèmes|||Stratasys
+Dassault Systèmes|||MSC Software
+Dassault Systèmes|||CD-adapco
+Dassault Systèmes|||PTC
+Dassault Systèmes|||3D Systems
+Dassault Systèmes|||Autodesk
+Dassault Systèmes|||Altair Engineering
+French Air Force|||Turkish Air Force
+French Air Force|||Indian Air Force
+French Air Force|||French Naval Aviation
+French Air Force|||French Army
+French Air Force|||Royal Netherlands Air Force
+French Air Force|||German Air Force
+French Air Force|||French Foreign Legion
+French Air Force|||Royal Australian Air Force
+French Air Force|||Italian Air Force
+French Air Force|||Swiss Air Force
+French Air Force|||Luftwaffe
+French Air Force|||Brazilian Air Force
+French Air Force|||Hellenic Air Force
+French Air Force|||United States Air Force
+French Air Force|||Russian Air Force
+French Air Force|||Royal Canadian Air Force
+French Air Force|||Belgian Air Component
+French Air Force|||Spanish Air Force
+French Air Force|||French Armed Forces
+French Air Force|||Free French Air Forces
+Embraer|||Flybe
+Embraer|||US Airways
+Embraer|||Azul Brazilian Airlines
+Embraer|||American Airlines
+Embraer|||KLM
+Embraer|||Canadair
+Embraer|||United Airlines
+Embraer|||LOT Polish Airlines
+Embraer|||McDonnell Douglas
+Ministry of the Armed Forces (France)|||Government of France
+Ministry of the Armed Forces (France)|||Naval Group
+Navantia|||Acciona
+Navantia|||Repsol
+Navantia|||Endesa
+Navantia|||Iberdrola
+Navantia|||Indra Sistemas
+Navantia|||Abanca
+Navantia|||Sociedad Estatal de Participaciones Industriales
+Navantia|||Abengoa
+Navantia|||Correos
+Navantia|||Siemens Gamesa Renewable Energy
+Nexter Systems|||Krauss-Maffei Wegmann
+Nexter Systems|||Orange S.A.
+Nexter Systems|||Renault Trucks
+Nexter Systems|||ACMAT
+Nexter Systems|||Panhard
+Nexter Systems|||Groupe PSA
+Nexter Systems|||Rheinmetall
+ThyssenKrupp Marine Systems|||StepStone
+ThyssenKrupp Marine Systems|||Lürssen
+ThyssenKrupp Marine Systems|||Howaldtswerke-Deutsche Werft
+ThyssenKrupp Marine Systems|||Atlas Elektronik
+ThyssenKrupp Marine Systems|||Blohm+Voss
+Électricité de France|||Npower
+Électricité de France|||Gaz de France
+Électricité de France|||Edison
+Électricité de France|||Société Générale
+Électricité de France|||Réseau de Transport d'Électricité
+Électricité de France|||Total S.A.
+Électricité de France|||SSE plc
+Électricité de France|||Enel
+Électricité de France|||EDF Energy
+Électricité de France|||British Gas
+Électricité de France|||Suez Environnement
+Électricité de France|||Vinci SA
+Électricité de France|||Crédit Agricole
+Électricité de France|||E.ON
+Électricité de France|||RATP Group
+Électricité de France|||La Poste
+Électricité de France|||Eni
+Électricité de France|||Dalkia
+Technip|||McDermott International
+Technip|||Aker Solutions
+Technip|||PETRONAS
+Technip|||Royal Dutch Shell
+Technip|||Wood Group
+Technip|||Fluor Corporation
+Technip|||Saipem
+Technip|||Subsea 7
+Technip|||ConocoPhillips
+Technip|||Stone & Webster
+Technip|||WorleyParsons
+Technip|||FMC Technologies
+Technip|||Statoil
+Technip|||ExxonMobil
+Technip|||KBR
+Technip|||Chicago Bridge & Iron Company
+Technip|||JGC Corporation
+Technip|||Petrobras
+Technip|||Chevron Corporation
+Technip|||Petrofac
+Technip|||Acergy
+Technip|||Bechtel
+Areva|||Mitsubishi Heavy Industries, Ltd.
+Areva|||Kazatomprom
+Areva|||Urenco Group
+Areva|||Cameco
+Areva|||Teollisuuden Voima
+Areva|||Tokyo Electric Power Company
+Areva|||ABB Group
+Areva|||Schneider Electric
+Areva|||Eramet
+Areva|||Westinghouse Electric Company
+Damen Group|||Royal Boskalis Westminster
+Damen Group|||Van Oord
+Ministry of the Armed Forces (France)|||Secretariat-General for National Defence and Security
+Ministry of the Armed Forces (France)|||Senate
+Ministry of the Armed Forces (France)|||NATO
+Shanghai Cooperation Organisation|||North American Free Trade Agreement
+Shanghai Cooperation Organisation|||Eurasian Economic Union
+Shanghai Cooperation Organisation|||OPEC
+Shanghai Cooperation Organisation|||Asian Development Bank
+Shanghai Cooperation Organisation|||Organisation of Islamic Cooperation
+Shanghai Cooperation Organisation|||Eurasian Economic Community
+Shanghai Cooperation Organisation|||International Atomic Energy Agency
+Shanghai Cooperation Organisation|||Asia-Pacific Economic Cooperation
+Shanghai Cooperation Organisation|||Economic Cooperation Organization
+Shanghai Cooperation Organisation|||South Asian Association for Regional Cooperation
+Shanghai Cooperation Organisation|||Mercosur
+World Bank|||UNICEF
+World Bank|||International Finance Corporation
+World Bank|||World Bank Group
+World Bank|||World Health Organization
+World Bank|||International Labour Organization
+World Bank|||Inter-American Development Bank
+World Bank|||United Nations Economic Commission for Latin America and the Caribbean
+World Bank|||United States Agency for International Development
+World Bank|||International Bank for Reconstruction and Development
+World Bank|||United Nations Conference on Trade and Development
+World Bank|||International Development Association
+World Bank|||United Nations Development Programme
+World Bank|||European Bank for Reconstruction and Development
+World Bank|||Food and Agriculture Organization
+Council of Europe|||European Economic Community
+Council of Europe|||European Commission
+Council of Europe|||Council of the European Union
+Council of Europe|||European Free Trade Association
+Council of Europe|||European Coal and Steel Community
+Council of Europe|||Amnesty International
+Council of Europe|||European Court of Human Rights
+Council of Europe|||Parliamentary Assembly of the Council of Europe
+Council of Europe|||European Council
+Council of Europe|||Venice Commission
+Council of Europe|||Parliament
+Council of Europe|||European Directorate for the Quality of Medicines
+UNESCO|||International Fund for Agricultural Development
+UNESCO|||World Wide Fund for Nature
+UNESCO|||Global Geoparks
+UNESCO|||World Food Programme
+World Trade Organization|||World Tourism Organization
+World Trade Organization|||World Customs Organization
+World Trade Organization|||World Intellectual Property Organization
+European Union|||Eurostat
+European Union|||European Medicines Agency
+European Union|||Kiev
+European Union|||Prague
+European Union|||PayPal
+European Union|||European Central Bank
+International Monetary Fund|||Federal Reserve System
+G20|||Group of 77
+G20|||Group of Eight
+G20|||Group of Ten
+G20|||Group of 15
+G20|||World Economic Forum
+G20|||Group of Seven
+Warsaw Pact|||Southeast Asia Treaty Organization
+Warsaw Pact|||Cominform
+Warsaw Pact|||Comecon
+Warsaw Pact|||Ministry of Internal Affairs
+OECD|||International Energy Agency
+OECD|||Financial Action Task Force on Money Laundering
+Collective Security Treaty Organization|||TASS
+Collective Security Treaty Organization|||ANZUS
+Collective Security Treaty Organization|||Union State
+Collective Security Treaty Organization|||Organization of the Black Sea Economic Cooperation
+European Parliament|||European Food Safety Authority
+European Parliament|||European Court of Auditors
+European Parliament|||European Investment Bank
+European Parliament|||Sejm
+European Parliament|||European Committee of the Regions
+European Parliament|||EURACTIV
+European Parliament|||European Economic and Social Committee
+European Parliament|||European External Action Service
+Commonwealth of Independent States|||Commonwealth of Nations
+Commonwealth of Independent States|||International Organization for Standardization
+Commonwealth of Independent States|||Eurasian Economic Commission
+Commonwealth of Independent States|||Ministry of Emergency Situations
+Organization for Security and Co-operation in Europe|||GUAM Organization for Democracy and Economic Development
+Organization for Security and Co-operation in Europe|||Security Service of Ukraine
+Organization for Security and Co-operation in Europe|||Ministry of Foreign Affairs of the Russian Federation
+Organization for Security and Co-operation in Europe|||United Nations High Commissioner for Refugees
+Association of Southeast Asian Nations|||ASEAN Economic Community
+Association of Southeast Asian Nations|||Asia–Europe Meeting
+Association of Southeast Asian Nations|||ASEAN Football Federation
+Association of Southeast Asian Nations|||Non-Aligned Movement
+Association of Southeast Asian Nations|||Regional Comprehensive Economic Partnership
+BRICS|||Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation
+BRICS|||Vladimir Putin
+BRICS|||Jim O'Neill, Baron O'Neill of Gatley
+BRICS|||IBSA Dialogue Forum
+BRICS|||Goldman Sachs
+United Nations Security Council|||League of Nations
+United Nations Security Council|||Organisation for the Prohibition of Chemical Weapons
+United Nations Security Council|||United Nations General Assembly
+United Nations Security Council|||United Nations Trusteeship Council
+United Nations Security Council|||United Nations Economic and Social Council
+Ministry of the Armed Forces (France)|||École de guerre
+Ministry of the Armed Forces (France)|||Ministère français
+Ministry of the Armed Forces (France)|||Direction générale de la Gendarmerie Nationale
+Ministry of the Armed Forces (France)|||BNP Paribas
+Morgan Stanley|||Charles Schwab Corporation
+Morgan Stanley|||Financial Industry Regulatory Authority
+Morgan Stanley|||Ameriprise Financial
+Morgan Stanley|||Wells Fargo
+Morgan Stanley|||BlackRock
+Morgan Stanley|||McKinsey & Company
+Morgan Stanley|||Raymond James Financial
+Morgan Stanley|||Bank of America
+Morgan Stanley|||Fidelity Investments
+Morgan Stanley|||Mitsubishi UFJ Financial Group
+Morgan Stanley|||Lehman Brothers
+Morgan Stanley|||Lazard
+Morgan Stanley|||Morgan Stanley Wealth Management
+Morgan Stanley|||Edward Jones Investments
+Morgan Stanley|||Evercore Partners
+Morgan Stanley|||Merrill Lynch
+Morgan Stanley|||The Vanguard Group
+ABN AMRO|||Aegon N.V.
+ABN AMRO|||MeesPierson
+ABN AMRO|||Van Lanschot
+ABN AMRO|||Royal Bank of Scotland
+ABN AMRO|||Citibank
+ABN AMRO|||De Volksbank
+ABN AMRO|||Commerzbank
+ABN AMRO|||Santander Group
+ABN AMRO|||Delta Lloyd Group
+ABN AMRO|||Rabobank
+ABN AMRO|||Banco Bilbao Vizcaya Argentaria
+ABN AMRO|||Bethmann Bank
+Natixis|||Groupe Banque Populaire
+Natixis|||CNP Assurances
+Natixis|||Crédit Foncier de France
+Natixis|||Groupe BPCE
+Natixis|||Natixis Global Asset Management
+Natixis|||AXA
+Natixis|||Compagnie Française d'Assurance pour le Commerce Extérieur
+Natixis|||Harris Associates
+Natixis|||Loomis, Sayles & Company
+Natixis|||Amundi
+Natixis|||Dexia
+Natixis|||Caisse des dépôts et consignations
+Natixis|||Crédit Agricole Corporate and Investment Bank
+ING Group|||Voya Financial
+ING Group|||Australia and New Zealand Banking Group
+ING Group|||Tangerine
+ING Group|||Commonwealth Bank
+ING Group|||Capital One
+ING Group|||ING Bank Slaski
+ING Group|||Capital One Investing
+ING Group|||Westpac
+ING Group|||UniCredit
+ING Group|||National Australia Bank
+ING Group|||NN Group
+JPMorgan Chase|||Ernst & Young
+JPMorgan Chase|||Bloomberg L.P.
+JPMorgan Chase|||Northern Trust
+JPMorgan Chase|||The Bank of New York Mellon
+JPMorgan Chase|||State Street Corporation
+JPMorgan Chase|||Bank of America Merrill Lynch
+JPMorgan Chase|||Bear Stearns
+Groupe Caisse d'Épargne|||Groupama
+Groupe Caisse d'Épargne|||Nexity
+Groupe Caisse d'Épargne|||Crédit du Nord
+Groupe Caisse d'Épargne|||SFR
+Groupe Caisse d'Épargne|||Société Marseillaise de Crédit
+Groupe Caisse d'Épargne|||Bouygues Telecom
+Groupe Caisse d'Épargne|||Banque Palatine
+Boursorama|||Bourse Direct
+Boursorama|||La Caixa
+Boursorama|||BFM
+Boursorama|||Numericable
+Boursorama|||Bouygues
+Boursorama|||Free
+Boursorama|||Française des Jeux
+La Banque postale|||Cofidis
+La Banque postale|||Bank of France
+La Banque postale|||Caisse D'Epargne
+Crédit Mutuel|||Auchan
+Crédit Mutuel|||Targobank
+Crédit Lyonnais|||Fnac
+Crédit Lyonnais|||Allianz SE
+Crédit Lyonnais|||American Express
+Crédit Lyonnais|||Air France
+Banca Nazionale del Lavoro|||Banca Sella Group
+Banca Nazionale del Lavoro|||Banca Popolare di Milano
+Banca Nazionale del Lavoro|||Credito Valtellinese
+Banca Nazionale del Lavoro|||TIM
+Banca Nazionale del Lavoro|||Banca Carige
+Banca Nazionale del Lavoro|||Veneto Banca
+Banca Nazionale del Lavoro|||BPER Banca
+Banca Nazionale del Lavoro|||Intesa Sanpaolo
+Banca Nazionale del Lavoro|||Agenzia Nazionale Stampa Associata Soc. Coop.
+Banca Nazionale del Lavoro|||Tiscali
+Banca Nazionale del Lavoro|||Banco di Sardegna
+Banca Nazionale del Lavoro|||Mediobanca
+Banca Nazionale del Lavoro|||Poste italiane
+Banca Nazionale del Lavoro|||Banca Popolare di Verona
+Banca Nazionale del Lavoro|||Bank of Italy
+Banca Nazionale del Lavoro|||Unipol
+Banca Nazionale del Lavoro|||Banca Antonveneta
+Banca Nazionale del Lavoro|||UBI Banca
+Banca Nazionale del Lavoro|||Banco Popolare
+Banca Nazionale del Lavoro|||Banca Monte dei Paschi di Siena
+UBS|||Julius Baer Group
+UBS|||Union Bank of Switzerland
+UBS|||Wells Fargo Advisors
+BNP Paribas Fortis|||Electrabel
+BNP Paribas Fortis|||Crelan
+BNP Paribas Fortis|||National Railway Company of Belgium
+BNP Paribas Fortis|||Fintro
+BNP Paribas Fortis|||Proximus
+BNP Paribas Fortis|||Keytrade Bank
+BNP Paribas Fortis|||Proximus Group
+BNP Paribas Fortis|||bpost banque
+BNP Paribas Fortis|||Argenta
+BNP Paribas Fortis|||National Bank of Belgium
+BNP Paribas Fortis|||KBC Bank
+BNP Paribas Fortis|||Telenet
+BNP Paribas Fortis|||Bpost
+BNP Paribas Fortis|||BGL BNP Paribas
+BNP Paribas Fortis|||Belfius
+BNP Paribas Fortis|||Orange
+BNP Paribas Fortis|||Ageas
+Deutsche Bank|||HypoVereinsbank
+Deutsche Bank|||Standard Chartered
+Deutsche Bank|||Deutsche Bahn
+Deutsche Bank|||Deutsche Postbank
+Cardif|||April Group
+Cardif|||Swiss Life
+Cardif|||MAPFRE
+Cardif|||Aviva
+Cardif|||MetLife
+Cardif|||Assicurazioni Generali
+Citigroup|||Banamex
+Citigroup|||U.S. Bancorp
+Citigroup|||PNC Financial Services
+Citigroup|||CitiMortgage Inc
+Citigroup|||ICICI Bank
+Credit Suisse|||Valcambi
+Credit Suisse|||Jefferies Group
+Credit Suisse|||First Boston
+Credit Suisse|||Donaldson, Lufkin & Jenrette
+Credit Suisse|||Credit Suisse First Boston
+Credit Suisse|||Massachusetts Mutual Life Insurance Company
+Credit Suisse|||Zurich Cantonal Bank
+HSBC|||Yorkshire Building Society
+HSBC|||Marks & Spencer
+HSBC|||HBOS
+HSBC|||Yorkshire Bank
+HSBC|||First Direct
+HSBC|||HSBC France
+HSBC|||HSBC Expat
+HSBC|||HSBC Bank USA
+HSBC|||Clydesdale Bank
+HSBC|||Nationwide Building Society
+HSBC|||Bank of Scotland
+HSBC|||Halifax
+HSBC|||The Co-operative Bank
+HSBC|||MBNA
+HSBC|||The Hongkong and Shanghai Banking Corporation
+HSBC|||Tesco Bank
+HSBC|||NatWest
+HSBC|||Lloyds Bank
+Ministry of the Armed Forces (France)|||Pôle emploi
+Cadremploi|||Fiducial Inc.
+Cadremploi|||Experteer
+Cadremploi|||PageGroup
+Cadremploi|||Hays plc
+Cadremploi|||Mercuri Urval
+Cadremploi|||Agence nationale pour l'emploi
+Cadremploi|||Synergie
+Cadremploi|||Robert Half International
+Cadremploi|||Segula Technologies
+Cadremploi|||Robert Walters plc
+UNEDIC|||Mouvement des Entreprises de France
+UNEDIC|||ASSEDIC
+UNEDIC|||Agence Centrale Des Organismes De Securite Sociale
+UNEDIC|||RSI
+UNEDIC|||Défenseur des droits
+UNEDIC|||Family Benefits Office
+UNEDIC|||URSSAF
+ManpowerGroup|||PeopleReady
+ManpowerGroup|||Persol Tempstaff Co., Ltd.
+ManpowerGroup|||Staff Service Holdings
+ManpowerGroup|||Kelly Services
+ManpowerGroup|||Reed
+Decathlon Group|||Specialized Bicycle Components
+Decathlon Group|||Intersport
+Decathlon Group|||Quiksilver
+Decathlon Group|||Mizuno Corporation
+Decathlon Group|||El Corte Inglés
+Decathlon Group|||Adidas
+Decathlon Group|||Carrefour
+Decathlon Group|||Speedo
+Decathlon Group|||ASICS
+Decathlon Group|||Flipkart
+Decathlon Group|||Reebok
+Decathlon Group|||Trek Bicycle Corporation
+Decathlon Group|||Shimano
+Decathlon Group|||Lafuma
+Decathlon Group|||CrossFit
+Decathlon Group|||Petzl
+Decathlon Group|||Puma
+Decathlon Group|||Giant Bicycles
+Decathlon Group|||Babolat
+Decathlon Group|||Cannondale Bicycle Corporation
+Decathlon Group|||Salomon Group
+Decathlon Group|||CamelBak
+Randstad Holding|||SFN Group
+Randstad Holding|||Aerotek
+Randstad Holding|||Vedior
+Randstad Holding|||Randstad India
+Randstad Holding|||Cognizant
+Randstad Holding|||Kforce
+The Adecco Group|||Recruit Staffing
+The Adecco Group|||Accenture
+The Adecco Group|||Pasona
+Leroy Merlin|||Brico Dépôt
+Leroy Merlin|||OBI
+Leroy Merlin|||Bricomarché
+Leroy Merlin|||Castorama
+Leroy Merlin|||Tok&Stok
+Leroy Merlin|||Tapis Saint-Maclou SA
+Leroy Merlin|||Agata
+Leroy Merlin|||IKEA
+Leroy Merlin|||C&C
+Leroy Merlin|||Conforama
+Leroy Merlin|||Bricomart
+Leroy Merlin|||Bricorama
+Leroy Merlin|||Mr. Bricolage
+Leroy Merlin|||Bricor, S.A.
+Leroy Merlin|||Cdiscount
+Leroy Merlin|||Maisons du Monde
+Leroy Merlin|||Praktiker
+Leroy Merlin|||Telhanorte
+Leroy Merlin|||Alinéa SAS
+Leroy Merlin|||Jysk
+Leroy Merlin|||Weldom
+Ministry of the Armed Forces (France)|||National Gendarmerie
+National Guard|||New York Army National Guard
+National Guard|||North Carolina Army National Guard
+National Guard|||United States Army Reserve
+National Guard|||Indiana National Guard
+National Guard|||United States Department of the Air Force
+National Guard|||United States Armed Forces
+National Guard|||United States Army Rangers
+National Guard|||Air Force Reserve Command
+National Guard|||United States Navy
+National Guard|||United States Marine Corps
+National Guard|||State defense force
+National Guard|||Air National Guard
+National Guard|||Texas Army National Guard
+National Guard|||United States Coast Guard
+National Guard|||Ohio Army National Guard
+National Guard|||United States Army
+National Guard|||Missouri National Guard
+National Guard|||California Army National Guard
+National Guard|||Army National Guard
+National Guard|||Michigan National Guard
+National Guard|||Minnesota National Guard
+Royal Moroccan Armed Forces|||Royal Moroccan Air Force
+Royal Moroccan Armed Forces|||Military of Chad
+Royal Moroccan Armed Forces|||Royal Saudi Air Force
+Royal Moroccan Armed Forces|||Jordanian Armed Forces
+Royal Moroccan Armed Forces|||Royal Saudi Navy
+Royal Moroccan Armed Forces|||Egyptian Armed Forces
+Royal Moroccan Armed Forces|||Royal Moroccan Army
+Royal Moroccan Armed Forces|||Moroccan Goumier
+Royal Moroccan Armed Forces|||People's National Army
+Royal Moroccan Armed Forces|||Libyan National Army
+Royal Moroccan Armed Forces|||Algerian Air Force
+Royal Moroccan Armed Forces|||Armed Forces of Saudi Arabia
+Royal Moroccan Armed Forces|||Tunisian Armed Forces
+Royal Moroccan Armed Forces|||Spanish Armed Forces
+Royal Moroccan Armed Forces|||Sudanese Armed Forces
+Royal Moroccan Armed Forces|||Royal Moroccan Navy
+Royal Moroccan Armed Forces|||Algerian National Navy
+Royal Moroccan Armed Forces|||Saudi Arabian Army
+French Forces of the Interior|||Wehrmacht
+French Forces of the Interior|||Free French Forces
+French Forces of the Interior|||Army of Africa
+French Forces of the Interior|||Spanish Maquis
+French Forces of the Interior|||Freikorps
+French Forces of the Interior|||Free French Naval Forces
+French Forces of the Interior|||Polish resistance movement in World War II
+French Forces of the Interior|||Maquis du Vercors
+French Forces of the Interior|||French Far East Expeditionary Corps
+French Forces of the Interior|||Senegalese Tirailleurs
+French Forces of the Interior|||Free France
+Armed Forces of the Republic of Ivory Coast|||Cameroonian Armed Forces
+Armed Forces of the Republic of Ivory Coast|||Armed Forces of Gabon
+Armed Forces of the Republic of Ivory Coast|||Eritrean Defence Forces
+Armed Forces of the Republic of Ivory Coast|||Namibian Defence Force
+Armed Forces of the Republic of Ivory Coast|||Nigerian Armed Forces
+Armed Forces of the Republic of Ivory Coast|||Military of Burkina Faso
+Armed Forces of the Republic of Ivory Coast|||Armed Forces of the Democratic Republic of the Congo
+Armed Forces of the Republic of Ivory Coast|||Commandement des Forces Terrestres
+Armed Forces of the Republic of Ivory Coast|||Benin Armed Forces
+Armed Forces of the Republic of Ivory Coast|||Djibouti Armed Forces
+Armed Forces of the Republic of Ivory Coast|||Military of Mozambique
+Armed Forces of the Republic of Ivory Coast|||Tanzania People's Defence Force
+Armed Forces of the Republic of Ivory Coast|||Ghana Armed Forces
+Armed Forces of the Republic of Ivory Coast|||Military of Guinea
+Armed Forces of the Republic of Ivory Coast|||Military of Burundi
+Armed Forces of the Republic of Ivory Coast|||Armed Forces of Senegal
+Armed Forces of the Republic of Ivory Coast|||Niger Armed Forces
+Carabinieri|||Italian Armed Forces
+Carabinieri|||Arditi
+Carabinieri|||Italian Army
+Carabinieri|||Blackshirts
+Carabinieri|||Regia Aeronautica
+Carabinieri|||Alpini
+Carabinieri|||Bersaglieri
+Carabinieri|||Italian Navy
+Carabinieri|||Comando Raggruppamento Subacquei e Incursori Teseo Tesei
+Carabinieri|||Royal Italian Army
+Chasseur|||Compound butter
+Chasseur|||Hollandaise sauce
+Chasseur|||Wiener Schnitzel
+Chasseur|||Remoulade
+Chasseur|||Hawaiian pizza
+Chasseur|||Madeira sauce
+Chasseur|||Frikadeller
+Chasseur|||Agaricus
+Chasseur|||Béarnaise sauce
+Chasseur|||Pizza quattro stagioni
+Chasseur|||Spätzle
+Chasseur|||Mixed grill
+Chasseur|||Zürcher Geschnetzeltes
+Chasseur|||Home fries
+Chasseur|||Schnitzel
+Chasseur|||Currywurst
+Chasseur|||Espagnole sauce
+Chasseur|||Escalope
+Chasseur|||Cacciatore
+Chasseur|||Demi-glace
+Chasseur|||Pizza capricciosa
+Chasseur|||Bordelaise sauce
+Military of Mali|||Botswana Defence Force
+Ministry of the Armed Forces (France)|||Direction générale de l'armement
+CNES|||German Aerospace Center
+CNES|||Arianespace
+CNES|||DigitalGlobe
+CNES|||Canadian Space Agency
+CNES|||China National Space Administration
+CNES|||JAXA
+CNES|||Roscosmos
+CNES|||European Space Agency
+Ministry of the Armed Forces (France)|||French Navy
+Royal Canadian Navy|||Imperial German Navy
+Royal Canadian Navy|||South African Navy
+Royal Canadian Navy|||Royal New Zealand Navy
+Royal Canadian Navy|||Canadian Expeditionary Force
+Royal Canadian Navy|||Canadian Army
+Royal Canadian Navy|||Royal Norwegian Navy
+Royal Canadian Navy|||Canadian Special Operations Forces Command
+Royal Canadian Navy|||Royal Flying Corps Canada
+Royal Canadian Navy|||Royal Canadian Armoured Corps
+Royal Canadian Navy|||Hellenic Navy
+Royal Canadian Navy|||Admiralty
+Royal Canadian Navy|||Royal Danish Navy
+Royal Netherlands Navy|||Peruvian Navy
+Royal Netherlands Navy|||Royal Marechaussee
+Royal Netherlands Navy|||Belgian Navy
+Royal Netherlands Navy|||Netherlands Marine Corps
+Royal Netherlands Navy|||Royal Netherlands East Indies Army
+Royal Netherlands Navy|||Indonesian Navy
+Royal Netherlands Navy|||Swedish Navy
+Royal Netherlands Navy|||Royal Netherlands East Indies Army Air Force
+Royal Netherlands Navy|||Armed forces of the Netherlands
+Royal Netherlands Navy|||Netherlands Naval Aviation Service
+Royal Netherlands Navy|||Royal Netherlands Army
+Spanish Navy|||Unidad de Operaciones Especiales
+Spanish Navy|||Spanish Navy Marines
+Spanish Navy|||Mexican Navy
+Spanish Navy|||Tercio
+Spanish Navy|||Spanish Royal Guard
+Spanish Navy|||Spanish Army
+Spanish Navy|||Portuguese Navy
+Spanish Navy|||Argentine Navy
+Spanish Navy|||Spanish Legion
+Spanish Navy|||Chilean Navy
+Spanish Navy|||Turkish Naval Forces
+German Navy|||German Army
+German Navy|||Waffen-SS
+German Navy|||National People's Army
+German Navy|||Volksmarine
+German Navy|||Joint Support Service
+German Navy|||Reichsmarine
+German Navy|||Gebirgsjäger
+Soviet Navy|||Royal Navy Submarine Service
+Soviet Navy|||Imperial Russian Navy
+Soviet Navy|||Ukrainian Navy
+Soviet Navy|||Red Army
+Soviet Navy|||Soviet Armed Forces
+Soviet Navy|||Soviet Army
+Soviet Navy|||Naval Infantry
+Soviet Navy|||Russian Airborne Troops
+Soviet Navy|||Russian Naval Aviation
+Soviet Navy|||Regia Marina
+Soviet Navy|||Imperial Russian Army
+Soviet Navy|||Army
+Soviet Navy|||Russian Armed Forces
+Soviet Navy|||Soviet Air Forces
+Soviet Navy|||Russian Ground Forces
+Indian Navy|||People's Liberation Army
+Indian Navy|||Pakistan Armed Forces
+Indian Navy|||Indian Army
+Indian Navy|||Republic of China Navy
+Indian Navy|||Vietnam People's Navy
+Indian Navy|||Sri Lanka Navy
+Indian Navy|||Paramilitary forces of India
+Indian Navy|||Pakistan Air Force
+Indian Navy|||Indian Coast Guard
+Indian Navy|||Pakistan Navy
+Indian Navy|||Japan Maritime Self-Defense Force
+Indian Navy|||Pakistan Army
+Indian Navy|||Indian Armed Forces
+Russian Navy|||Japan Self-Defense Forces
+Russian Navy|||Republic of Korea Navy
+Polish Navy|||Polish Legions in World War I
+Polish Navy|||Multinational Corps Northeast
+Polish Navy|||Polish Armed Forces in the West
+Polish Navy|||Border Guard
+Polish Navy|||Polish Air Force
+Polish Navy|||Polish Special Forces
+Polish Navy|||Polish Land Forces
+Polish Navy|||Polish People's Army
+Polish Navy|||Polish Armed Forces
+Royal Australian Navy|||Royal New Zealand Air Force
+Royal Australian Navy|||Australian Army
+Royal Australian Navy|||First Australian Imperial Force
+Royal Australian Navy|||Royal Marines
+Royal Australian Navy|||Philippine Navy
+Royal Australian Navy|||Australian Defence Force
+Royal Australian Navy|||Republic of Singapore Navy
+People's Liberation Army Navy|||Theater commands of the People's Liberation Army
+People's Liberation Army Navy|||Republic of China Army
+People's Liberation Army Navy|||People's Armed Police
+People's Liberation Army Navy|||People's Liberation Army Naval Air Force
+People's Liberation Army Navy|||People's Liberation Army Marine Corps
+People's Liberation Army Navy|||Republic of China Armed Forces
+People's Liberation Army Navy|||People's Liberation Army Air Force
+People's Liberation Army Navy|||Republic of China Marine Corps
+People's Liberation Army Navy|||Japan Air Self-Defense Force
+People's Liberation Army Navy|||People's Liberation Army Ground Force
+Brazilian Navy|||Brazilian Naval Aviation
+Brazilian Navy|||Portuguese Air Force
+Brazilian Navy|||Colombian Navy
+Brazilian Navy|||Portuguese Army
+Brazilian Navy|||Brazilian Army
+Brazilian Navy|||Brazilian Expeditionary Force
+Brazilian Navy|||Portuguese Armed Forces
+Brazilian Navy|||Brazilian Armed Forces
+Brazilian Navy|||National Republican Guard
