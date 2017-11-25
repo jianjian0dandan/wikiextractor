@@ -12,7 +12,7 @@ import json
 if __name__ == '__main__':
     target = "Ministry of the Armed Forces (France)"
     rel_entities_set = set()
-    with open("Ministry of the Armed Forces (France).txt") as f:
+    with open("1125.txt") as f:
         for line in f:
             datastr = line.strip()
             data = datastr.split("|||")
@@ -21,7 +21,7 @@ if __name__ == '__main__':
 
     rel_entities_set = rel_entities_set - set([target])
     query = []
-    fw = open("final_query.txt", "w")
+    fw = open("final_query_1125.txt", "w")
     for ent in rel_entities_set:
         d = [target, ent]
         d = [_.encode("utf-8") for _ in d]
@@ -34,12 +34,12 @@ if __name__ == '__main__':
         fw.write("%s\n" % origin_q)
     fw.close()
 
-    fw = open("Ministry of the Armed Forces (France)_results.txt", "a")
+    fw = open("Ministry of the Armed Forces (France)_results_1125.txt", "a")
     crawl = False
     for idx, q in enumerate(query):
         print idx, "-----------------------------"
         q1, q2 = q
-        if idx == 433:
+        if idx == 0:
             crawl = True
         if not crawl:
             continue
